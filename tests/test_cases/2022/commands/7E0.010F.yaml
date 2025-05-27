@@ -1,0 +1,34 @@
+command_id: 7E0.010F
+test_cases:
+- response: 7E803410F44
+  expected_values:
+    IAT: 28
+- response: 7E803410F45
+  expected_values:
+    IAT: 29
+- response: 7E803410F46
+  expected_values:
+    IAT: 30
+- response: 7E803410F47
+  expected_values:
+    IAT: 31
+- response: 7E803410F48
+  expected_values:
+    IAT: 32
+- response: 7E803410F49
+  expected_values:
+    IAT: 33
+- response: 7E803410F4A
+  expected_values:
+    IAT: 34
+- response: 7E803410F4B
+  expected_values:
+    IAT: 35
+- response: 7E803410F4C
+  expected_values:
+    IAT: 36
+- response: |-
+    > 7E0.7E8.010F
+    7E803410F43
+  expected_values:
+    IAT: 27

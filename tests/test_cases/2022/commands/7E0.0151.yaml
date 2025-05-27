@@ -1,0 +1,9 @@
+command_id: 7E0.0151
+test_cases:
+- response: |-
+    > 720.222A0C
+    NO DATA
+    > 7E0.7E8.0151
+    7E803415101
+  expected_values:
+    FUEL_TYP: GAS

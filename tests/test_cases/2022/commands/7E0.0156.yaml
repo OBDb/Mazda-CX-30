@@ -1,0 +1,11 @@
+command_id: 7E0.0156
+test_cases:
+- response: |-
+    > 720.222A0B
+    NO DATA
+    > 720.222A08
+    NO DATA
+    > 7E0.7E8.0156
+    7E803415680
+  expected_values:
+    LGSO2FT1: 0

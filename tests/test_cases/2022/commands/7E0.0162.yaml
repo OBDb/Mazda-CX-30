@@ -1,0 +1,13 @@
+command_id: 7E0.0162
+test_cases:
+- response: '7E803416285'
+  expected_values:
+    TQ_ACT: 8
+- response: 7E8034162CA
+  expected_values:
+    TQ_ACT: 77
+- response: |-
+    > 7E0.7E8.0162
+    7E80341627D
+  expected_values:
+    TQ_ACT: 0
