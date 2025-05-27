@@ -1,0 +1,16 @@
+command_id: 7E0.0147
+test_cases:
+- response: '7E803414723'
+  expected_values:
+    TP_B: 13.72549
+- response: '7E803414724'
+  expected_values:
+    TP_B: 14.11765
+- response: |-
+    > ATRV
+    13.8V
+    13.9V
+    > 7E0.7E8.0147
+    7E803414722
+  expected_values:
+    TP_B: 13.33333
