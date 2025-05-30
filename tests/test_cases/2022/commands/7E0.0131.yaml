@@ -9,6 +9,28 @@ test_cases:
 - response: 7E80441316ABE
   expected_values:
     CLR_DIST: 27326
+- response: 7E80441316ABF
+  expected_values:
+    CLR_DIST: 27327
+- response: 7E80441316AC0
+  expected_values:
+    CLR_DIST: 27328
+- response: 7E80441316AC1
+  expected_values:
+    CLR_DIST: 27329
+- response: 7E80441316AC2
+  expected_values:
+    CLR_DIST: 27330
+- response: 7E80441316AC3
+  expected_values:
+    CLR_DIST: 27331
+- response: |-
+    > 720.222A06
+    NO DATA
+    > 7E0.7E8.0131
+    7E80441316ABE
+  expected_values:
+    CLR_DIST: 27326
 - response: |-
     > 7E0.7E8.0131
     7E80441316ABB

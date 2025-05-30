@@ -74,4 +74,4 @@ supported_commands_by_ecu:
   - 0149:APP_D
 unsupported_commands_by_ecu:
   7E0:
-  - 7E0.220522
+  - 7E0.220522:MAZDA_FUEL_T
