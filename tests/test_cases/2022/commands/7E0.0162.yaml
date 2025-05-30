@@ -1,12 +1,18 @@
 command_id: 7E0.0162
 test_cases:
-- response: '7E803416285'
+- response: '7E803416284'
   expected_values:
-    TQ_ACT: 8
-- response: 7E8034162CA
+    TQ_ACT: 7
+- response: 7E8034162CD
   expected_values:
-    TQ_ACT: 77
+    TQ_ACT: 80
 - response: |-
+    > 7E0.7E8.0162
+    7E80341627D
+  expected_values:
+    TQ_ACT: 0
+- response: |-
+    NO DATA
     > 7E0.7E8.0162
     7E80341627D
   expected_values:
