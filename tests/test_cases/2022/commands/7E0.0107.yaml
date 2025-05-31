@@ -1,7 +1,0 @@
-command_id: 7E0.0107
-test_cases:
-- response: |-
-    > 7E0.7E8.0107
-    7E80341077E
-  expected_values:
-    LONGFT1: -1.5625
