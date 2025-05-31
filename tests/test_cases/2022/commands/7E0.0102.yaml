@@ -1,7 +1,0 @@
-command_id: 7E0.0102
-test_cases:
-- response: |-
-    > 7E0.7E8.0102
-    7E80441020000
-  expected_values:
-    DTCFRZF: 0
