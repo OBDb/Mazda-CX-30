@@ -1,0 +1,8 @@
+command_id: 726.22D928
+test_cases:
+- expected_values:
+    MAZDA_TT_RL: 19
+  response: 72E0462D92845
+- expected_values:
+    MAZDA_TT_RL: 40
+  response: 72E0462D9285A
