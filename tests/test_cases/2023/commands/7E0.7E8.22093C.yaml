@@ -1,8 +1,11 @@
 command_id: 7E0.7E8.22093C
 test_cases:
 - expected_values:
-    MAZDA_ETC_ACT_DEG: 1.98828
-  response: 7E80562093C03FA
+    MAZDA_ETC_ACT_DEG: 0.25
+  response: 7E80562093C0080
+- expected_values:
+    MAZDA_ETC_ACT_DEG: 3.49609
+  response: 7E80562093C06FE
 - expected_values:
     MAZDA_ETC_ACT_DEG: 3.5
   response: 7E80562093C0700
