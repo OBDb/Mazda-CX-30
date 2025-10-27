@@ -1,8 +1,8 @@
 command_id: 7E0.220307
 test_cases:
 - expected_values:
-    MAZDA_FP_LD: 17.74166
-  response: 7E8056203072D6B
+    MAZDA_FP_LD: 17.70352
+  response: 7E8056203072D52
 - expected_values:
     MAZDA_FP_LD: 18.35813
   response: 7E8056203072EFF
