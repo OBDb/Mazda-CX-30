@@ -1,8 +1,8 @@
 command_id: 7E0.221310
 test_cases:
 - expected_values:
-    MAZDA_EOT: 11.26
-  response: '7E8056213101406'
+    MAZDA_EOT: 5.48
+  response: 7E80562131011C4
 - expected_values:
     MAZDA_EOT: 26.56
   response: 7E8056213101A00
