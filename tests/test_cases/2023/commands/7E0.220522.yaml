@@ -1,8 +1,8 @@
 command_id: 7E0.220522
 test_cases:
 - expected_values:
-    MAZDA_FUEL_T: 2
-  response: 7E8046205222A
+    MAZDA_FUEL_T: 0
+  response: '7E80462052228'
 - expected_values:
     MAZDA_FUEL_T: 94
   response: '7E80462052286'
