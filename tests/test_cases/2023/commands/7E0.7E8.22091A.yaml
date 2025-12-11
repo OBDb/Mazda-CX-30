@@ -1,14 +1,22 @@
 command_id: 7E0.7E8.22091A
 test_cases:
 - expected_values:
+    MAZDA_ETC_ANG_DES: 0.27539
     MAZDA_ETC_DSD_DEG: 0.27539
+    MAZDA_THROTTLE_POS_DES: 1.72119
   response: 7E80562091A008D
 - expected_values:
+    MAZDA_ETC_ANG_DES: 2
     MAZDA_ETC_DSD_DEG: 2
+    MAZDA_THROTTLE_POS_DES: 12.5
   response: 7E80562091A0400
 - expected_values:
+    MAZDA_ETC_ANG_DES: 2.99805
     MAZDA_ETC_DSD_DEG: 2.99805
+    MAZDA_THROTTLE_POS_DES: 18.73779
   response: 7E80562091A05FF
 - expected_values:
+    MAZDA_ETC_ANG_DES: 86
     MAZDA_ETC_DSD_DEG: 86
+    MAZDA_THROTTLE_POS_DES: 100
   response: 7E80562091AAC00
