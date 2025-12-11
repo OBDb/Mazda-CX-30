@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    MAZDA_ODO: 38075
+  response: 7E80662DD010094BB
+- expected_values:
+    MAZDA_ODO: 38076
+  response: 7E80662DD010094BC
+- expected_values:
+    MAZDA_ODO: 38077
+  response: 7E80662DD010094BD
+- expected_values:
+    MAZDA_ODO: 38078
+  response: 7E80662DD010094BE
+- expected_values:
+    MAZDA_ODO: 38079
+  response: 7E80662DD010094BF
+- expected_values:
+    MAZDA_ODO: 38080
+  response: 7E80662DD010094C0
+- expected_values:
+    MAZDA_ODO: 38081
+  response: 7E80662DD010094C1
+- expected_values:
+    MAZDA_ODO: 38082
+  response: 7E80662DD010094C2
