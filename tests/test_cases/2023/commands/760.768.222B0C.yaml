@@ -2,4 +2,10 @@ command_id: 760.768.222B0C
 test_cases:
 - expected_values:
     MAZDA_LAT_ANG: 0
-  response: 76805622B0C000B
+  response: 76805622B0C0000
+- expected_values:
+    MAZDA_LAT_ANG: -1
+  response: 76805622B0CFFFA
+- expected_values:
+    MAZDA_LAT_ANG: -1
+  response: 76805622B0CFFFE

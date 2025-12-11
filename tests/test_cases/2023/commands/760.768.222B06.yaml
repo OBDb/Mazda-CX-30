@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MAZDA_FR_VSS: 0
   response: 76804622B0600
+- expected_values:
+    MAZDA_FR_VSS: 72
+  response: 76804622B0648
