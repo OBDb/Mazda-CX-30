@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1916
+  response: 7E80562F431077C
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1917
+  response: 7E80562F431077D
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1918
+  response: 7E80562F431077E
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1919
+  response: 7E80562F431077F
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1920
+  response: 7E80562F4310780
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1921
+  response: 7E80562F4310781
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1922
+  response: 7E80562F4310782
+- expected_values:
+    MAZDA_DIST_DTC_CLR: 1923
+  response: 7E80562F4310783

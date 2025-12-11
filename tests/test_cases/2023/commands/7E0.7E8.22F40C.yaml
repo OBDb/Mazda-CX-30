@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F40C
+test_cases:
+- expected_values:
+    MAZDA_RPM: 556
+  response: 7E80562F40C08B0
+- expected_values:
+    MAZDA_RPM: 574.5
+  response: 7E80562F40C08FA
+- expected_values:
+    MAZDA_RPM: 1025
+  response: 7E80562F40C1004
+- expected_values:
+    MAZDA_RPM: 1938.25
+  response: 7E80562F40C1E49

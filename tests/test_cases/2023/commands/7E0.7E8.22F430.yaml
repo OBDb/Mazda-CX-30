@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F430
+test_cases:
+- expected_values:
+    MAZDA_WARMUP_CLR: 128
+  response: 7E80462F43080
+- expected_values:
+    MAZDA_WARMUP_CLR: 129
+  response: 7E80462F43081

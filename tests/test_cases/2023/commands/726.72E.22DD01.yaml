@@ -3,3 +3,24 @@ test_cases:
 - expected_values:
     MAZDA_ODO_726: 38075
   response: 72E0662DD010094BB
+- expected_values:
+    MAZDA_ODO_726: 38076
+  response: 72E0662DD010094BC
+- expected_values:
+    MAZDA_ODO_726: 38077
+  response: 72E0662DD010094BD
+- expected_values:
+    MAZDA_ODO_726: 38078
+  response: 72E0662DD010094BE
+- expected_values:
+    MAZDA_ODO_726: 38079
+  response: 72E0662DD010094BF
+- expected_values:
+    MAZDA_ODO_726: 38080
+  response: 72E0662DD010094C0
+- expected_values:
+    MAZDA_ODO_726: 38081
+  response: 72E0662DD010094C1
+- expected_values:
+    MAZDA_ODO_726: 38082
+  response: 72E0662DD010094C2
