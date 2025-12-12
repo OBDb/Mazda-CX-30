@@ -7,8 +7,12 @@ test_cases:
 - expected_values:
     MAZDA_EVAP_V: 5
     MAZDA_[ECU] EVAP PRES SENSOR V: 5
-  response: 7E80562038E09EC
+  response: 7E80562038E07EE
 - expected_values:
     MAZDA_EVAP_V: 5
     MAZDA_[ECU] EVAP PRES SENSOR V: 5
-  response: 7E80562038E0A19
+  response: 7E80562038E0802
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0A05
