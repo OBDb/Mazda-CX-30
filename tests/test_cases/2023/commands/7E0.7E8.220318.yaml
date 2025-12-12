@@ -2,7 +2,7 @@ command_id: 7E0.7E8.220318
 test_cases:
 - expected_values:
     MAZDA_VCT_INT_ACT: 0
-  response: 7E805620318005C
+  response: '7E8056203180058'
 - expected_values:
     MAZDA_VCT_INT_ACT: 0
   response: 7E80562031800FF
@@ -11,4 +11,4 @@ test_cases:
   response: '7E8056203180106'
 - expected_values:
     MAZDA_VCT_INT_ACT: 0
-  response: '7E8056203180499'
+  response: '7E8056203180494'

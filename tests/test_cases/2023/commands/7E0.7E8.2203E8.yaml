@@ -5,7 +5,10 @@ test_cases:
   response: 7E8056203E8C81C
 - expected_values:
     MAZDA_OAR: 1
-  response: 7E8056203E8C982
+  response: 7E8056203E8C9FF
 - expected_values:
     MAZDA_OAR: 1
-  response: 7E8056203E8C9FF
+  response: 7E8056203E8D509
+- expected_values:
+    MAZDA_OAR: 1
+  response: 7E8056203E8F085

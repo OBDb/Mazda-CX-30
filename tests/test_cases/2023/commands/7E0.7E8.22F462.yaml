@@ -4,5 +4,5 @@ test_cases:
     MAZDA_PCM_ACT_ENG_PCT_TRQ: 0
   response: 7E80462F4627D
 - expected_values:
-    MAZDA_PCM_ACT_ENG_PCT_TRQ: 67
-  response: 7E80462F462C0
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 80
+  response: 7E80462F462CD
