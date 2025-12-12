@@ -1,11 +1,14 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
-    MAZDA_RUN_TIME: 46
-  response: 7E80562F41F002E
+    MAZDA_RUN_TIME: 27
+  response: 7E80562F41F001B
 - expected_values:
     MAZDA_RUN_TIME: 507
   response: 7E80562F41F01FB
 - expected_values:
-    MAZDA_RUN_TIME: 1028
-  response: 7E80562F41F0404
+    MAZDA_RUN_TIME: 768
+  response: 7E80562F41F0300
+- expected_values:
+    MAZDA_RUN_TIME: 1281
+  response: 7E80562F41F0501
