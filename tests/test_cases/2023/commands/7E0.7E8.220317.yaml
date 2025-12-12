@@ -4,14 +4,8 @@ test_cases:
     MAZDA_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
 - expected_values:
-    MAZDA_VCT_EXH_DUTY: 12.26807
-  response: 7E8056203170FB4
+    MAZDA_VCT_EXH_DUTY: 29.68445
+  response: 7E80562031725FF
 - expected_values:
-    MAZDA_VCT_EXH_DUTY: 38.0188
-  response: 7E80562031730AA
-- expected_values:
-    MAZDA_VCT_EXH_DUTY: 38.98315
-  response: 7E80562031731E6
-- expected_values:
-    MAZDA_VCT_EXH_DUTY: 40.31067
-  response: '7E8056203173399'
+    MAZDA_VCT_EXH_DUTY: 59.50012
+  response: 7E8056203174C29
