@@ -4,6 +4,9 @@ test_cases:
     MAZDA_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
 - expected_values:
+    MAZDA_GRILL_SHUTTER_POSITION: 1.17647
+  response: '7E80462058003'
+- expected_values:
     MAZDA_GRILL_SHUTTER_POSITION: 1.96078
   response: '7E80462058005'
 - expected_values:
@@ -13,5 +16,11 @@ test_cases:
     MAZDA_GRILL_SHUTTER_POSITION: 9.01961
   response: '7E80462058017'
 - expected_values:
+    MAZDA_GRILL_SHUTTER_POSITION: 10.19608
+  response: 7E8046205801A
+- expected_values:
     MAZDA_GRILL_SHUTTER_POSITION: 47.05882
   response: '7E80462058078'
+- expected_values:
+    MAZDA_GRILL_SHUTTER_POSITION: 50.98039
+  response: '7E80462058082'
