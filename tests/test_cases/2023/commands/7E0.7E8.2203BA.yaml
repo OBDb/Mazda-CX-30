@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203BA
 test_cases:
 - expected_values:
+    MAZDA_AAT_V: 2.20919
+  response: 7E8056203BA01C4
+- expected_values:
     MAZDA_AAT_V: 2.46823
   response: 7E8056203BA01F9
 - expected_values:
