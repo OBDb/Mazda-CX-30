@@ -1,0 +1,14 @@
+command_id: 726.22D929
+test_cases:
+- expected_values:
+    MAZDA_TT_RR_V3: -9
+  response: 72E0462D92929
+- expected_values:
+    MAZDA_TT_RR_V3: -8
+  response: 72E0462D9292A
+- expected_values:
+    MAZDA_TT_RR_V3: -7
+  response: 72E0462D9292B
+- expected_values:
+    MAZDA_TT_RR_V3: -2
+  response: 72E0462D92930
