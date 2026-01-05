@@ -1,0 +1,14 @@
+command_id: 760.768.222B00
+test_cases:
+- expected_values:
+    MAZDA_PARKING_BRAKE: 0
+  response: 76807622B0000000000
+- expected_values:
+    MAZDA_PARKING_BRAKE: 0
+  response: 76807622B0000800000
+- expected_values:
+    MAZDA_PARKING_BRAKE: 0
+  response: 76807622B0020000000
+- expected_values:
+    MAZDA_PARKING_BRAKE: 1
+  response: 76807622B0080000000

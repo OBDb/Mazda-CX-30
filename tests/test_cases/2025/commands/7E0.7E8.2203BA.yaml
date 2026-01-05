@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2203BA
+test_cases:
+- expected_values:
+    MAZDA_AAT_V: 3.79765
+  response: 7E8056203BA0309
+- expected_values:
+    MAZDA_AAT_V: 3.80254
+  response: 7E8056203BA030A
+- expected_values:
+    MAZDA_AAT_V: 3.81232
+  response: 7E8056203BA030C
+- expected_values:
+    MAZDA_AAT_V: 3.82698
+  response: 7E8056203BA030F
+- expected_values:
+    MAZDA_AAT_V: 3.83675
+  response: 7E8056203BA0311
+- expected_values:
+    MAZDA_AAT_V: 3.84653
+  response: 7E8056203BA0313
+- expected_values:
+    MAZDA_AAT_V: 3.8563
+  response: 7E8056203BA0315
+- expected_values:
+    MAZDA_AAT_V: 3.86119
+  response: 7E8056203BA0316

@@ -1,0 +1,17 @@
+command_id: 726.22D927
+test_cases:
+- expected_values:
+    MAZDA_TT_FR_V3: -9
+  response: 72E0462D92729
+- expected_values:
+    MAZDA_TT_FR_V3: -8
+  response: 72E0462D9272A
+- expected_values:
+    MAZDA_TT_FR_V3: -7
+  response: 72E0462D9272B
+- expected_values:
+    MAZDA_TT_FR_V3: -6
+  response: 72E0462D9272C
+- expected_values:
+    MAZDA_TT_FR_V3: 1
+  response: 72E0462D92733
