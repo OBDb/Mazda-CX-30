@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     MAZDA_GRILL_SHUTTER_POSITION: 0
   response: '7E80462058000'
+- expected_values:
+    MAZDA_GRILL_SHUTTER_POSITION: 25.09804
+  response: '7E80462058040'
