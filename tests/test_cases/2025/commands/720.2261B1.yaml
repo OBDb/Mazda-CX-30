@@ -1,6 +1,18 @@
 command_id: 720.2261B1
 test_cases:
 - expected_values:
+    MAZDA_FLV: 7
+    MAZDA_FUEL_LEVEL: 7
+  response: 728046261B107
+- expected_values:
+    MAZDA_FLV: 8
+    MAZDA_FUEL_LEVEL: 8
+  response: 728046261B108
+- expected_values:
+    MAZDA_FLV: 9
+    MAZDA_FUEL_LEVEL: 9
+  response: 728046261B109
+- expected_values:
     MAZDA_FLV: 10
     MAZDA_FUEL_LEVEL: 10
   response: 728046261B10A

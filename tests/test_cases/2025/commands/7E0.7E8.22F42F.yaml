@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
-    MAZDA_FLI: 14.5098
-  response: 7E80462F42F25
+    MAZDA_FLI: 5.88235
+  response: 7E80462F42F0F
 - expected_values:
-    MAZDA_FLI: 16.07843
-  response: 7E80462F42F29
+    MAZDA_FLI: 9.01961
+  response: 7E80462F42F17
 - expected_values:
     MAZDA_FLI: 23.13725
   response: 7E80462F42F3B
