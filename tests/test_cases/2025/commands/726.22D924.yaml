@@ -4,17 +4,5 @@ test_cases:
     MAZDA_TP_RL_V3: 30
   response: 72E0462D92496
 - expected_values:
-    MAZDA_TP_RL_V3: 30.2
-  response: 72E0462D92497
-- expected_values:
-    MAZDA_TP_RL_V3: 30.4
-  response: 72E0462D92498
-- expected_values:
-    MAZDA_TP_RL_V3: 30.6
-  response: 72E0462D92499
-- expected_values:
-    MAZDA_TP_RL_V3: 30.8
-  response: 72E0462D9249A
-- expected_values:
-    MAZDA_TP_RL_V3: 31.4
-  response: 72E0462D9249D
+    MAZDA_TP_RL_V3: 32.8
+  response: 72E0462D924A4

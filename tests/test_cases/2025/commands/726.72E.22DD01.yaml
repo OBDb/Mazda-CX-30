@@ -4,17 +4,5 @@ test_cases:
     MAZDA_ODO_726: 11175
   response: 72E0662DD01002BA7
 - expected_values:
-    MAZDA_ODO_726: 11176
-  response: 72E0662DD01002BA8
-- expected_values:
-    MAZDA_ODO_726: 11177
-  response: 72E0662DD01002BA9
-- expected_values:
-    MAZDA_ODO_726: 11179
-  response: 72E0662DD01002BAB
-- expected_values:
-    MAZDA_ODO_726: 11180
-  response: 72E0662DD01002BAC
-- expected_values:
-    MAZDA_ODO_726: 11181
-  response: 72E0662DD01002BAD
+    MAZDA_ODO_726: 11202
+  response: 72E0662DD01002BC2
