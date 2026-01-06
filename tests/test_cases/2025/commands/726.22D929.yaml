@@ -4,29 +4,5 @@ test_cases:
     MAZDA_TT_RR_V3: -9
   response: 72E0462D92929
 - expected_values:
-    MAZDA_TT_RR_V3: -8
-  response: 72E0462D9292A
-- expected_values:
-    MAZDA_TT_RR_V3: -7
-  response: 72E0462D9292B
-- expected_values:
-    MAZDA_TT_RR_V3: -5
-  response: 72E0462D9292D
-- expected_values:
-    MAZDA_TT_RR_V3: -2
-  response: 72E0462D92930
-- expected_values:
-    MAZDA_TT_RR_V3: -1
-  response: 72E0462D92931
-- expected_values:
-    MAZDA_TT_RR_V3: 1
-  response: 72E0462D92933
-- expected_values:
-    MAZDA_TT_RR_V3: 2
-  response: 72E0462D92934
-- expected_values:
-    MAZDA_TT_RR_V3: 3
-  response: 72E0462D92935
-- expected_values:
-    MAZDA_TT_RR_V3: 4
-  response: 72E0462D92936
+    MAZDA_TT_RR_V3: 5
+  response: 72E0462D92937

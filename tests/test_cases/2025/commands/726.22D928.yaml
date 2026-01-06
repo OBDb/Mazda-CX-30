@@ -4,5 +4,5 @@ test_cases:
     MAZDA_TT_RL_V3: -8
   response: 72E0462D9282A
 - expected_values:
-    MAZDA_TT_RL_V3: 4
-  response: 72E0462D92836
+    MAZDA_TT_RL_V3: 6
+  response: 72E0462D92838
