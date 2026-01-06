@@ -15,3 +15,18 @@ test_cases:
 - expected_values:
     MAZDA_TT_RR_V3: -2
   response: 72E0462D92930
+- expected_values:
+    MAZDA_TT_RR_V3: -1
+  response: 72E0462D92931
+- expected_values:
+    MAZDA_TT_RR_V3: 1
+  response: 72E0462D92933
+- expected_values:
+    MAZDA_TT_RR_V3: 2
+  response: 72E0462D92934
+- expected_values:
+    MAZDA_TT_RR_V3: 3
+  response: 72E0462D92935
+- expected_values:
+    MAZDA_TT_RR_V3: 4
+  response: 72E0462D92936
