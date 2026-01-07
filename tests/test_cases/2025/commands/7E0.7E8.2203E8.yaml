@@ -11,4 +11,4 @@ test_cases:
   response: 7E8056203E8FEF6
 - expected_values:
     MAZDA_OAR: 1
-  response: 7E8056203E8FF5A
+  response: 7E8056203E8FF1D
