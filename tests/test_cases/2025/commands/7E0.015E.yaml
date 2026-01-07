@@ -7,5 +7,5 @@ test_cases:
     FUEL_RATE: 12.7
   response: 7E804415E00FE
 - expected_values:
-    FUEL_RATE: 13
-  response: 7E804415E0104
+    FUEL_RATE: 12.8
+  response: 7E804415E0100
