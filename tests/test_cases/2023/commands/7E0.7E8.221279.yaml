@@ -4,5 +4,5 @@ test_cases:
     MAZDA_IAT_SENS_V: 0.60117
   response: 7E805621279007B
 - expected_values:
-    MAZDA_IAT_SENS_V: 1.08993
-  response: 7E80562127900DF
+    MAZDA_IAT_SENS_V: 1.10948
+  response: 7E80562127900E3
