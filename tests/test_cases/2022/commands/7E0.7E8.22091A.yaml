@@ -1,0 +1,12 @@
+command_id: 7E0.7E8.22091A
+test_cases:
+- expected_values:
+    MAZDA_ETC_ANG_DES: 2.53516
+    MAZDA_ETC_DSD_DEG: 2.53516
+    MAZDA_THROTTLE_POS_DES: 15.84473
+  response: 7E80562091A0512
+- expected_values:
+    MAZDA_ETC_ANG_DES: 2.59375
+    MAZDA_ETC_DSD_DEG: 2.59375
+    MAZDA_THROTTLE_POS_DES: 16.21094
+  response: 7E80562091A0530
