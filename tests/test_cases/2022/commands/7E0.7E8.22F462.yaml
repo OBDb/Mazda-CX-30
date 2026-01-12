@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F462
+test_cases:
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 11
+  response: 7E80462F46288
