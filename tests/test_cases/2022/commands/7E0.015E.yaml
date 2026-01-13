@@ -1,32 +1,11 @@
 command_id: 7E0.015E
 test_cases:
 - expected_values:
-    FUEL_RATE: 0.95
-  response: 7E804415E0013
+    FUEL_RATE: 0
+  response: 7E804415E0000
 - expected_values:
-    FUEL_RATE: 1
-  response: 7E804415E0014
+    FUEL_RATE: 10.3
+  response: 7E804415E00CE
 - expected_values:
-    FUEL_RATE: 1.1
-  response: 7E804415E0016
-- expected_values:
-    FUEL_RATE: 1.2
-  response: 7E804415E0018
-- expected_values:
-    FUEL_RATE: 1.25
-  response: 7E804415E0019
-- expected_values:
-    FUEL_RATE: 1.3
-  response: 7E804415E001A
-- expected_values:
-    FUEL_RATE: 1.45
-  response: 7E804415E001D
-- expected_values:
-    FUEL_RATE: 2.25
-  response: 7E804415E002D
-- expected_values:
-    FUEL_RATE: 4.6
-  response: 7E804415E005C
-- expected_values:
-    FUEL_RATE: 8.45
-  response: 7E804415E00A9
+    FUEL_RATE: 17.75
+  response: 7E804415E0163
