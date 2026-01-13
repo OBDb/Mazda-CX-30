@@ -1,26 +1,8 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
-    MAZDA_IAT_SENS_V: 0.7478
-  response: '7E8056212790099'
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.75269
-  response: 7E805621279009A
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.75758
-  response: 7E805621279009B
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.76246
-  response: 7E805621279009C
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.77224
-  response: 7E805621279009E
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.78201
-  response: 7E80562127900A0
-- expected_values:
-    MAZDA_IAT_SENS_V: 0.7869
-  response: 7E80562127900A1
+    MAZDA_IAT_SENS_V: 0.72825
+  response: '7E8056212790095'
 - expected_values:
     MAZDA_IAT_SENS_V: 0.79179
   response: 7E80562127900A2
