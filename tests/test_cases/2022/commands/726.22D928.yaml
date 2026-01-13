@@ -1,5 +1,20 @@
 command_id: 726.22D928
 test_cases:
 - expected_values:
+    MAZDA_TT_RL_V3: 1
+  response: 72E0462D92833
+- expected_values:
+    MAZDA_TT_RL_V3: 2
+  response: 72E0462D92834
+- expected_values:
+    MAZDA_TT_RL_V3: 5
+  response: 72E0462D92837
+- expected_values:
+    MAZDA_TT_RL_V3: 7
+  response: 72E0462D92839
+- expected_values:
     MAZDA_TT_RL_V3: 12
   response: 72E0462D9283E
+- expected_values:
+    MAZDA_TT_RL_V3: 14
+  response: 72E0462D92840
