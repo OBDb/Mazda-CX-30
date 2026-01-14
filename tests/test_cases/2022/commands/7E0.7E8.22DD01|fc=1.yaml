@@ -4,5 +4,5 @@ test_cases:
     MAZDA_ODO: 70730
   response: 7E80662DD0101144A
 - expected_values:
-    MAZDA_ODO: 70807
-  response: 7E80662DD01011497
+    MAZDA_ODO: 70891
+  response: 7E80662DD010114EB
