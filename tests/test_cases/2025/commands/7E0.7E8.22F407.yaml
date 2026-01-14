@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F407
 test_cases:
 - expected_values:
-    MAZDA_LTFT: -2.34375
-  response: 7E80462F4077D
+    MAZDA_LTFT: -3.90625
+  response: 7E80462F4077B
 - expected_values:
     MAZDA_LTFT: 14.0625
   response: 7E80462F40792

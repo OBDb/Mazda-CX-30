@@ -8,4 +8,4 @@ test_cases:
   response: 76805622B11FEFF
 - expected_values:
     MAZDA_LAT_G: -1
-  response: 76805622B11FF1D
+  response: 76805622B11FF03
