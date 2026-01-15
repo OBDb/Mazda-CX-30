@@ -8,4 +8,4 @@ test_cases:
   response: 7E80562031801FF
 - expected_values:
     MAZDA_VCT_INT_ACT: 0
-  response: 7E805620318FFF9
+  response: 7E805620318FFF2
