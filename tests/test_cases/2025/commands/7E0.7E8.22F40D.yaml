@@ -4,5 +4,5 @@ test_cases:
     MAZDA_VSS: 0
   response: 7E80462F40D00
 - expected_values:
-    MAZDA_VSS: 141
-  response: 7E80462F40D8D
+    MAZDA_VSS: 142
+  response: 7E80462F40D8E
