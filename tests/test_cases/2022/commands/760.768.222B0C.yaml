@@ -5,7 +5,7 @@ test_cases:
   response: 76805622B0C0000
 - expected_values:
     MAZDA_LAT_ANG: -1
-  response: 76805622B0CFFBE
+  response: 76805622B0CFFBA
 - expected_values:
     MAZDA_LAT_ANG: -1
   response: 76805622B0CFFFF
