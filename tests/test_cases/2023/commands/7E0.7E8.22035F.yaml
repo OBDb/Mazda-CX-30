@@ -8,4 +8,4 @@ test_cases:
   response: 7E80562035F02FF
 - expected_values:
     MAZDA_RO2_V: 1
-  response: 7E80562035FFFB2
+  response: 7E80562035FFF88
