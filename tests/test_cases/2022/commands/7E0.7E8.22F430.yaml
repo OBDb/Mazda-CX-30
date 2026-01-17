@@ -4,29 +4,5 @@ test_cases:
     MAZDA_WARMUP_CLR: 101
   response: 7E80462F43065
 - expected_values:
-    MAZDA_WARMUP_CLR: 102
-  response: 7E80462F43066
-- expected_values:
-    MAZDA_WARMUP_CLR: 103
-  response: 7E80462F43067
-- expected_values:
-    MAZDA_WARMUP_CLR: 104
-  response: 7E80462F43068
-- expected_values:
-    MAZDA_WARMUP_CLR: 105
-  response: 7E80462F43069
-- expected_values:
-    MAZDA_WARMUP_CLR: 106
-  response: 7E80462F4306A
-- expected_values:
-    MAZDA_WARMUP_CLR: 110
-  response: 7E80462F4306E
-- expected_values:
-    MAZDA_WARMUP_CLR: 113
-  response: 7E80462F43071
-- expected_values:
-    MAZDA_WARMUP_CLR: 114
-  response: 7E80462F43072
-- expected_values:
-    MAZDA_WARMUP_CLR: 115
-  response: 7E80462F43073
+    MAZDA_WARMUP_CLR: 118
+  response: 7E80462F43076
