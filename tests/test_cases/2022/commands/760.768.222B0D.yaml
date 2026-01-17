@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA_BRK_FL_P: 255
   response: 76805622B0DFFFE
+- expected_values:
+    MAZDA_BRK_FL_P: 255
+  response: 76805622B0DFFFF
