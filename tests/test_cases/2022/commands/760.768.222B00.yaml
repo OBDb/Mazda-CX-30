@@ -5,6 +5,9 @@ test_cases:
   response: 76807622B0000000000
 - expected_values:
     MAZDA_PARKING_BRAKE: 0
+  response: 76807622B0000800000
+- expected_values:
+    MAZDA_PARKING_BRAKE: 0
   response: 76807622B0020000000
 - expected_values:
     MAZDA_PARKING_BRAKE: 1
