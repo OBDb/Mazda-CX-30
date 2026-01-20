@@ -4,5 +4,5 @@ test_cases:
     MAZDA_TP_FR_V3: 19.2
   response: 72E0462D92360
 - expected_values:
-    MAZDA_TP_FR_V3: 40.6
-  response: 72E0462D923CB
+    MAZDA_TP_FR_V3: 51
+  response: 72E0462D923FF
