@@ -18,3 +18,6 @@ test_cases:
 - expected_values:
     MAZDA_PARKING_BRAKE: 1
   response: 76807622B00A0000000
+- expected_values:
+    MAZDA_PARKING_BRAKE: 1
+  response: 76807622B00A0800000
