@@ -1,11 +1,11 @@
 command_id: 760.768.222B11
 test_cases:
 - expected_values:
-    MAZDA_LAT_G: 0
+    MAZDA_LAT_G_V2: 0
   response: 76805622B110000
 - expected_values:
-    MAZDA_LAT_G: -1
+    MAZDA_LAT_G_V2: -1
   response: 76805622B11FEFF
 - expected_values:
-    MAZDA_LAT_G: -1
+    MAZDA_LAT_G_V2: -1
   response: 76805622B11FF02
