@@ -10,5 +10,5 @@ test_cases:
     MAZDA_DIST_DTC_CLR: 11520
   response: 7E80562F4312D00
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 12823
-  response: 7E80562F4313217
+    MAZDA_DIST_DTC_CLR: 13056
+  response: 7E80562F4313300
