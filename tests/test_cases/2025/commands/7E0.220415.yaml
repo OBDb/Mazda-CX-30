@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     MAZDA_EOP: 256
   response: '7E8056204150100'
+- expected_values:
+    MAZDA_EOP: -1
+  response: 7E805620415FFFF
