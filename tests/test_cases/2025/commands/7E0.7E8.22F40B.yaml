@@ -4,5 +4,5 @@ test_cases:
     MAZDA_MAP_V2: 2.6107
   response: 7E80462F40B12
 - expected_values:
-    MAZDA_MAP_V2: 14.93901
-  response: 7E80462F40B67
+    MAZDA_MAP_V2: 15.08405
+  response: 7E80462F40B68
