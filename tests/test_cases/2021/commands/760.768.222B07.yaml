@@ -9,3 +9,9 @@ test_cases:
 - expected_values:
     MAZDA_FL_VSS: 42
   response: 76804622B072A
+- expected_values:
+    MAZDA_FL_VSS: 52
+  response: 76804622B0734
+- expected_values:
+    MAZDA_FL_VSS: 56
+  response: 76804622B0738
