@@ -20,3 +20,23 @@ test_cases:
     MAZDA_TRANS_T_V2: 178.7
     MAZDA_TRANS_T_V6: 178.7
   response: 7E905621E1C0518
+- expected_values:
+    MAZDA_TRANS_T_V2: 181.625
+    MAZDA_TRANS_T_V6: 181.625
+  response: 7E905621E1C0532
+- expected_values:
+    MAZDA_TRANS_T_V2: 182.1875
+    MAZDA_TRANS_T_V6: 182.1875
+  response: 7E905621E1C0537
+- expected_values:
+    MAZDA_TRANS_T_V2: 182.8625
+    MAZDA_TRANS_T_V6: 182.8625
+  response: 7E905621E1C053D
+- expected_values:
+    MAZDA_TRANS_T_V2: 185.225
+    MAZDA_TRANS_T_V6: 185.225
+  response: 7E905621E1C0552
+- expected_values:
+    MAZDA_TRANS_T_V2: 185.45
+    MAZDA_TRANS_T_V6: 185.45
+  response: 7E905621E1C0554
