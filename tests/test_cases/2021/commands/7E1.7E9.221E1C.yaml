@@ -1,0 +1,22 @@
+command_id: 7E1.7E9.221E1C
+test_cases:
+- expected_values:
+    MAZDA_TRANS_T_V2: 174.65
+    MAZDA_TRANS_T_V6: 174.65
+  response: 7E905621E1C04F4
+- expected_values:
+    MAZDA_TRANS_T_V2: 175.4375
+    MAZDA_TRANS_T_V6: 175.4375
+  response: 7E905621E1C04FB
+- expected_values:
+    MAZDA_TRANS_T_V2: 175.8875
+    MAZDA_TRANS_T_V6: 175.8875
+  response: 7E905621E1C04FF
+- expected_values:
+    MAZDA_TRANS_T_V2: 178.3625
+    MAZDA_TRANS_T_V6: 178.3625
+  response: 7E905621E1C0515
+- expected_values:
+    MAZDA_TRANS_T_V2: 178.7
+    MAZDA_TRANS_T_V6: 178.7
+  response: 7E905621E1C0518
