@@ -1,0 +1,11 @@
+command_id: 760.768.222B08
+test_cases:
+- expected_values:
+    MAZDA_RR_VSS: 34
+  response: 76804622B0822
+- expected_values:
+    MAZDA_RR_VSS: 36
+  response: 76804622B0824
+- expected_values:
+    MAZDA_RR_VSS: 42
+  response: 76804622B082A

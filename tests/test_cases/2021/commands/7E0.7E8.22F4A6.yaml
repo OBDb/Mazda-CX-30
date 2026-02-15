@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F4A6
+test_cases:
+- expected_values:
+    MAZDA_PCM_VEH_ODO: 86046.1
+  response: 7E80762F4A6000D212D
+- expected_values:
+    MAZDA_PCM_VEH_ODO: 86046.7
+  response: 7E80762F4A6000D2133
+- expected_values:
+    MAZDA_PCM_VEH_ODO: 86047.1
+  response: 7E80762F4A6000D2137
