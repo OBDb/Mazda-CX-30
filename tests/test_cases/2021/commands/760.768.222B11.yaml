@@ -7,5 +7,11 @@ test_cases:
     MAZDA_LAT_G_V2: 0.96
   response: 76805622B110030
 - expected_values:
+    MAZDA_LAT_G_V2: 1
+  response: 76805622B110036
+- expected_values:
+    MAZDA_LAT_G_V2: 1
+  response: 76805622B1100CA
+- expected_values:
     MAZDA_LAT_G_V2: -1
   response: 76805622B11FFB8
