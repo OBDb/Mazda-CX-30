@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.220324
+test_cases:
+- expected_values:
+    MAZDA_HPFP_V: 0.97263
+    MAZDA_[ECU] HPFP SENSOR VOLTAGE: 0.97263
+  response: 7E80562032400C7
+- expected_values:
+    MAZDA_HPFP_V: 0.99218
+    MAZDA_[ECU] HPFP SENSOR VOLTAGE: 0.99218
+  response: 7E80562032400CB
+- expected_values:
+    MAZDA_HPFP_V: 1.13881
+    MAZDA_[ECU] HPFP SENSOR VOLTAGE: 1.13881
+  response: 7E80562032400E9

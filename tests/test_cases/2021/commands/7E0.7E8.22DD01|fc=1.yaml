@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22DD01|fc=1
+test_cases:
+- expected_values:
+    MAZDA_ODO_V3: 86046
+  response: 7E80662DD0101501E
+- expected_values:
+    MAZDA_ODO_V3: 86047
+  response: 7E80662DD0101501F
