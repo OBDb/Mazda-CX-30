@@ -4,5 +4,5 @@ test_cases:
     MAZDA_TP_RR_V4: 27.4
   response: 72E0462D92589
 - expected_values:
-    MAZDA_TP_RR_V4: 38
-  response: 72E0462D925BE
+    MAZDA_TP_RR_V4: 38.2
+  response: 72E0462D925BF
