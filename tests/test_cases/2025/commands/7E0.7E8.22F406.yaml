@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
-    MAZDA_STFT: -16.40625
-  response: 7E80462F4066B
+    MAZDA_STFT: -17.96875
+  response: 7E80462F40669
 - expected_values:
     MAZDA_STFT: 19.53125
   response: 7E80462F40699
