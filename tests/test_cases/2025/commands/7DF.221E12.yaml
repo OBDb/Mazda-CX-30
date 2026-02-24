@@ -27,3 +27,11 @@ test_cases:
 - expected_values:
     MAZDA_GEAR_V2: 70
   response: 7E904621E1246
+- expected_values:
+    MAZDA_GEAR_V2: 70
+  response: |-
+    7E904621E1246
+    7E81014490201334D56
+    7E9064100981A8003
+    7E821444D42414D3153
+    7E8224D383434303831
