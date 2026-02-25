@@ -1,8 +1,8 @@
 command_id: 726.22D929
 test_cases:
 - expected_values:
-    MAZDA_TT_RR_V4: 14
-  response: 72E0462D92940
+    MAZDA_TT_RR_V4: 7
+  response: 72E0462D92939
 - expected_values:
     MAZDA_TT_RR_V4: 42
   response: 72E0462D9295C
