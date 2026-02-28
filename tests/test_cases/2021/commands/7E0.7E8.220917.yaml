@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220917
 test_cases:
 - expected_values:
-    MAZDA_TP1_V: 0.615
-  response: '7E8056209170267'
+    MAZDA_TP1_V: 0.594
+  response: '7E8056209170252'
 - expected_values:
     MAZDA_TP1_V: 1.533
   response: 7E80562091705FD
