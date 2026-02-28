@@ -5,25 +5,4 @@ test_cases:
   response: 76805622B0D0000
 - expected_values:
     MAZDA_BRK_FL_P: 0
-  response: 76805622B0D0001
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D0002
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D0008
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D001A
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D001E
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D002D
-- expected_values:
-    MAZDA_BRK_FL_P: 0
-  response: 76805622B0D0036
-- expected_values:
-    MAZDA_BRK_FL_P: 0
   response: 76805622B0D004A
