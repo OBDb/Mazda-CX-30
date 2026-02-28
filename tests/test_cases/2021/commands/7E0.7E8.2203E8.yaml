@@ -1,29 +1,14 @@
 command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
+    MAZDA_OAR: 0.09412
+  response: 7E8056203E80606
+- expected_values:
     MAZDA_OAR: 0.17212
   response: 7E8056203E80B04
 - expected_values:
-    MAZDA_OAR: 0.17236
-  response: 7E8056203E80B08
+    MAZDA_OAR: 0.20306
+  response: 7E8056203E80CFF
 - expected_values:
-    MAZDA_OAR: 0.17303
-  response: 7E8056203E80B13
-- expected_values:
-    MAZDA_OAR: 0.17841
-  response: 7E8056203E80B6B
-- expected_values:
-    MAZDA_OAR: 0.18121
-  response: 7E8056203E80B99
-- expected_values:
-    MAZDA_OAR: 0.1814
-  response: 7E8056203E80B9C
-- expected_values:
-    MAZDA_OAR: 0.18164
-  response: 7E8056203E80BA0
-- expected_values:
-    MAZDA_OAR: 0.1825
-  response: 7E8056203E80BAE
-- expected_values:
-    MAZDA_OAR: 0.18353
-  response: 7E8056203E80BBF
+    MAZDA_OAR: 0.2074
+  response: 7E8056203E80D46
