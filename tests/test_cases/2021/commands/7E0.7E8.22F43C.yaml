@@ -4,11 +4,11 @@ test_cases:
     MAZDA_CAT_TEMP: 391.9
   response: 7E80562F43C10DF
 - expected_values:
-    MAZDA_CAT_TEMP: 473.5
-  response: 7E80562F43C140F
-- expected_values:
     MAZDA_CAT_TEMP: 548.7
   response: 7E80562F43C16FF
 - expected_values:
-    MAZDA_CAT_TEMP: 579.8
-  response: 7E80562F43C1836
+    MAZDA_CAT_TEMP: 677.3
+  response: 7E80562F43C1C05
+- expected_values:
+    MAZDA_CAT_TEMP: 710
+  response: 7E80562F43C1D4C
