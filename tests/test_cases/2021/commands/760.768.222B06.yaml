@@ -1,14 +1,8 @@
 command_id: 760.768.222B06
 test_cases:
 - expected_values:
-    MAZDA_FR_VSS: 35
-  response: 76804622B0623
+    MAZDA_FR_VSS: 0
+  response: 76804622B0600
 - expected_values:
-    MAZDA_FR_VSS: 41
-  response: 76804622B0629
-- expected_values:
-    MAZDA_FR_VSS: 52
-  response: 76804622B0634
-- expected_values:
-    MAZDA_FR_VSS: 55
-  response: 76804622B0637
+    MAZDA_FR_VSS: 77
+  response: 76804622B064D
