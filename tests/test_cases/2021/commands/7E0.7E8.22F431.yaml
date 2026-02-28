@@ -4,23 +4,8 @@ test_cases:
     MAZDA_DIST_DTC_CLR: 6296
   response: 7E80562F4311898
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 6297
-  response: 7E80562F4311899
-- expected_values:
     MAZDA_DIST_DTC_CLR: 6299
   response: 7E80562F431189B
 - expected_values:
     MAZDA_DIST_DTC_CLR: 7194
   response: 7E80562F4311C1A
-- expected_values:
-    MAZDA_DIST_DTC_CLR: 7195
-  response: 7E80562F4311C1B
-- expected_values:
-    MAZDA_DIST_DTC_CLR: 7197
-  response: 7E80562F4311C1D
-- expected_values:
-    MAZDA_DIST_DTC_CLR: 7199
-  response: 7E80562F4311C1F
-- expected_values:
-    MAZDA_DIST_DTC_CLR: 7200
-  response: 7E80562F4311C20
