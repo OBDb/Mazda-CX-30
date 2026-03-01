@@ -4,8 +4,11 @@ test_cases:
     MAZDA_PCM_VEH_ODO: 86046.1
   response: 7E80762F4A6000D212D
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 87013.5
-  response: 7E80762F4A6000D46F7
-- expected_values:
     MAZDA_PCM_VEH_ODO: 87014.4
   response: 7E80762F4A6000D4700
+- expected_values:
+    MAZDA_PCM_VEH_ODO: 87064.8
+  response: 7E80762F4A6000D48F8
+- expected_values:
+    MAZDA_PCM_VEH_ODO: 87065.8
+  response: 7E80762F4A6000D4902
