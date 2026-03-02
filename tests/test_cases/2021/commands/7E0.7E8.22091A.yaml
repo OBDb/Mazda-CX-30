@@ -1,9 +1,9 @@
 command_id: 7E0.7E8.22091A
 test_cases:
 - expected_values:
-    MAZDA_ETC_ANG_DES: 2.02344
-    MAZDA_ETC_DSD_DEG: 2.02344
-  response: 7E80562091A040C
+    MAZDA_ETC_ANG_DES: 1.83008
+    MAZDA_ETC_DSD_DEG: 1.83008
+  response: 7E80562091A03A9
 - expected_values:
     MAZDA_ETC_ANG_DES: 6.99805
     MAZDA_ETC_DSD_DEG: 6.99805
