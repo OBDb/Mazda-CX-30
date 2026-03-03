@@ -4,5 +4,5 @@ test_cases:
     MAZDA_GEN_V: 12.875
   response: 7E8056216E90067
 - expected_values:
-    MAZDA_GEN_V: 14.75
-  response: 7E8056216E90076
+    MAZDA_GEN_V: 14.875
+  response: 7E8056216E90077
