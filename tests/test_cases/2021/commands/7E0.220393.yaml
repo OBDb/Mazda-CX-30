@@ -1,8 +1,8 @@
 command_id: 7E0.220393
 test_cases:
 - expected_values:
-    MAZDA_AC_P: 83.54174
-  response: '7E8056203930120'
+    MAZDA_AC_P: 80.64099
+  response: '7E8056203930116'
 - expected_values:
     MAZDA_AC_P: 148.22858
   response: 7E80562039301FF
