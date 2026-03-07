@@ -172,7 +172,7 @@ supported_commands_by_ecu:
   - 7E1.7E9.010D
   - 7E1.7E9.0111
   - 7E1.7E9.0131
-  - 7E1.7E9.221E1C:MAZDA_TRANS_T_V2,MAZDA_TRANS_T_V6
+  - 7E1.7E9.221E1C:MAZDA_TRANS_T_V6
   "7E6":
   - 7E6.7EE.221E1C|fc=1:MAZDA_TT
 unsupported_commands_by_ecu:
