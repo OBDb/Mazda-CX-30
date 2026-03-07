@@ -128,7 +128,7 @@ supported_commands_by_ecu:
   "7E1":
   - 7E1.7E9.0105
   - 7E1.7E9.0131
-  - 7E1.7E9.221E1C:MAZDA_TRANS_T_V2,MAZDA_TRANS_T_V6
+  - 7E1.7E9.221E1C:MAZDA_TRANS_T_V6
 unsupported_commands_by_ecu:
   "6F5":
   - 6F5.6FD.224899:MAZDA_HVDC_CHG_MAX_C
