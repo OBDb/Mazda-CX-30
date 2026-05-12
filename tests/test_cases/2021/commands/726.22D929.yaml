@@ -4,5 +4,5 @@ test_cases:
     MAZDA_TT_RR_V4: -1
   response: 72E0462D92931
 - expected_values:
-    MAZDA_TT_RR_V4: 42
-  response: 72E0462D9295C
+    MAZDA_TT_RR_V4: 44
+  response: 72E0462D9295E
