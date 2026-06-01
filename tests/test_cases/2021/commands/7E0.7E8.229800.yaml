@@ -10,5 +10,5 @@ test_cases:
     MAZDA_AC_P_SENS_V: 1.49902
   response: 7E80562980005FF
 - expected_values:
-    MAZDA_AC_P_SENS_V: 2.25586
-  response: '7E8056298000906'
+    MAZDA_AC_P_SENS_V: 3.42285
+  response: 7E8056298000DB1
