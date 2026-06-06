@@ -4,5 +4,5 @@ test_cases:
     MAZDA_FL_VSS: 0
   response: 76804622B0700
 - expected_values:
-    MAZDA_FL_VSS: 137
-  response: 76804622B0789
+    MAZDA_FL_VSS: 139
+  response: 76804622B078B
