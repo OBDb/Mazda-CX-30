@@ -10,5 +10,5 @@ test_cases:
     MAZDA_APP1_V: 1.28
   response: '7E8056209140500'
 - expected_values:
-    MAZDA_APP1_V: 4.211
-  response: '7E8056209141073'
+    MAZDA_APP1_V: 4.16
+  response: '7E8056209141040'
