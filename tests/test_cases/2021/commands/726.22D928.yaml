@@ -9,5 +9,5 @@ test_cases:
     72E0462D9284F
     72E0462D9284F
 - expected_values:
-    MAZDA_TT_RL_V3: 49
-  response: 72E0462D92863
+    MAZDA_TT_RL_V3: 54
+  response: 72E0462D92868
