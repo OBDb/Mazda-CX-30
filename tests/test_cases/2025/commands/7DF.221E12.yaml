@@ -1,0 +1,8 @@
+command_id: 7DF.221E12
+test_cases:
+- expected_values:
+    MAZDA_GEAR_V2: 0
+  response: 7E904621E1200
+- expected_values:
+    MAZDA_GEAR_V2: 70
+  response: 7E904621E1246
