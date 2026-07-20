@@ -1,8 +1,8 @@
 command_id: 726.72E.22DD01
 test_cases:
 - expected_values:
-    MAZDA_ODO_726: 38075
-  response: 72E0662DD010094BB
+    MAZDA_ODO_726: 14895
+  response: 72E0662DD01003A2F
 - expected_values:
     MAZDA_ODO_726: 38143
   response: 72E0662DD010094FF
