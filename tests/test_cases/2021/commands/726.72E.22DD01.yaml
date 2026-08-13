@@ -10,5 +10,5 @@ test_cases:
     MAZDA_ODO_726: 87296
   response: 72E0662DD01015500
 - expected_values:
-    MAZDA_ODO_726: 100608
-  response: 72E0662DD01018900
+    MAZDA_ODO_726: 100864
+  response: 72E0662DD01018A00
