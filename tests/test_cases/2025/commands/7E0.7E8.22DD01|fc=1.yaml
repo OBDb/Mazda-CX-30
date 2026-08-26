@@ -15,5 +15,5 @@ test_cases:
     7E80662DD01003A61
     7E90662DD01000000
 - expected_values:
-    MAZDA_ODO_V3: 38416
-  response: 7E80662DD01009610
+    MAZDA_ODO_V3: 38656
+  response: 7E80662DD01009700
