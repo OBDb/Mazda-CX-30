@@ -9,9 +9,21 @@ test_cases:
     MAZDA_MAP_V: 1.0498
   response: '7E8056203010433'
 - expected_values:
+    MAZDA_MAP: 1.833
+    MAZDA_MAP_V: 1.79004
+  response: '7E8056203010729'
+- expected_values:
+    MAZDA_MAP: 2.115
+    MAZDA_MAP_V: 2.06543
+  response: '7E8056203010843'
+- expected_values:
     MAZDA_MAP: 2.331
     MAZDA_MAP_V: 2.27637
   response: 7E805620301091B
+- expected_values:
+    MAZDA_MAP: 3.111
+    MAZDA_MAP_V: 3.03809
+  response: 7E8056203010C27
 - expected_values:
     MAZDA_MAP: 3.461
     MAZDA_MAP_V: 3.37988
@@ -20,3 +32,7 @@ test_cases:
     MAZDA_MAP: 3.672
     MAZDA_MAP_V: 3.58594
   response: 7E8056203010E58
+- expected_values:
+    MAZDA_MAP: 4
+    MAZDA_MAP_V: 4.07422
+  response: 7E805620301104C
