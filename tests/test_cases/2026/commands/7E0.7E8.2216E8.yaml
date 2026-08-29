@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.2216E8
+test_cases:
+- expected_values:
+    MAZDA_GEN_FC: 40.19226
+  response: 7E8056216E83372
+- expected_values:
+    MAZDA_GEN_FC: 40.69886
+  response: 7E8056216E83418
+- expected_values:
+    MAZDA_GEN_FC: 41.76089
+  response: 7E8056216E83574
+- expected_values:
+    MAZDA_GEN_FC: 42.4567
+  response: 7E8056216E83658
+- expected_values:
+    MAZDA_GEN_FC: 43.15251
+  response: 7E8056216E8373C
+- expected_values:
+    MAZDA_GEN_FC: 49.31411
+  response: 7E8056216E83F1F
+- expected_values:
+    MAZDA_GEN_FC: 49.93362
+  response: 7E8056216E83FEA
+- expected_values:
+    MAZDA_GEN_FC: 72.61463
+  response: 7E8056216E85CF2

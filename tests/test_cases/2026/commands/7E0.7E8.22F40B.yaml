@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F40B
+test_cases:
+- expected_values:
+    MAZDA_MAP_V2: 3.04582
+  response: 7E80462F40B15
+- expected_values:
+    MAZDA_MAP_V2: 6.96187
+  response: 7E80462F40B30
+- expected_values:
+    MAZDA_MAP_V2: 7.25195
+  response: 7E80462F40B32
+- expected_values:
+    MAZDA_MAP_V2: 8.41226
+  response: 7E80462F40B3A
+- expected_values:
+    MAZDA_MAP_V2: 11.31304
+  response: 7E80462F40B4E
+- expected_values:
+    MAZDA_MAP_V2: 12.18327
+  response: 7E80462F40B54
+- expected_values:
+    MAZDA_MAP_V2: 12.90847
+  response: 7E80462F40B59
+- expected_values:
+    MAZDA_MAP_V2: 13.48862
+  response: 7E80462F40B5D
