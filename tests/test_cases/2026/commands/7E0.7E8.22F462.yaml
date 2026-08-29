@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F462
+test_cases:
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 8
+  response: 7E80462F46285
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 21
+  response: 7E80462F46292
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 23
+  response: 7E80462F46294
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 46
+  response: 7E80462F462AB
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 47
+  response: 7E80462F462AC
+- expected_values:
+    MAZDA_PCM_ACT_ENG_PCT_TRQ: 52
+  response: 7E80462F462B1

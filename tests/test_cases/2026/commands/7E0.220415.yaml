@@ -1,0 +1,17 @@
+command_id: 7E0.220415
+test_cases:
+- expected_values:
+    MAZDA_EOP: 144
+  response: '7E8056204150090'
+- expected_values:
+    MAZDA_EOP: 147
+  response: '7E8056204150093'
+- expected_values:
+    MAZDA_EOP: 149
+  response: '7E8056204150095'
+- expected_values:
+    MAZDA_EOP: 150
+  response: '7E8056204150096'
+- expected_values:
+    MAZDA_EOP: 162
+  response: 7E80562041500A2

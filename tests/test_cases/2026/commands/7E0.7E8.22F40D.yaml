@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F40D
+test_cases:
+- expected_values:
+    MAZDA_VSS: 4
+  response: 7E80462F40D04
+- expected_values:
+    MAZDA_VSS: 24
+  response: 7E80462F40D18
+- expected_values:
+    MAZDA_VSS: 42
+  response: 7E80462F40D2A
+- expected_values:
+    MAZDA_VSS: 50
+  response: 7E80462F40D32
+- expected_values:
+    MAZDA_VSS: 51
+  response: 7E80462F40D33
+- expected_values:
+    MAZDA_VSS: 52
+  response: 7E80462F40D34
+- expected_values:
+    MAZDA_VSS: 56
+  response: 7E80462F40D38
+- expected_values:
+    MAZDA_VSS: 63
+  response: 7E80462F40D3F
