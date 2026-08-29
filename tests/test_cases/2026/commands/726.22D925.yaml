@@ -1,11 +1,23 @@
 command_id: 726.22D925
 test_cases:
 - expected_values:
+    MAZDA_TP_RR_V4: 36.2
+  response: 72E0462D925B5
+- expected_values:
+    MAZDA_TP_RR_V4: 36.4
+  response: 72E0462D925B6
+- expected_values:
+    MAZDA_TP_RR_V4: 36.6
+  response: 72E0462D925B7
+- expected_values:
     MAZDA_TP_RR_V4: 37.2
   response: 72E0462D925BA
 - expected_values:
     MAZDA_TP_RR_V4: 37.4
   response: 72E0462D925BB
+- expected_values:
+    MAZDA_TP_RR_V4: 37.6
+  response: 72E0462D925BC
 - expected_values:
     MAZDA_TP_RR_V4: 38
   response: 72E0462D925BE
