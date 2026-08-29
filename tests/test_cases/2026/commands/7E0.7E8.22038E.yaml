@@ -1,0 +1,34 @@
+command_id: 7E0.7E8.22038E
+test_cases:
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0695
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E06EF
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0799
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E087F
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0889
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E09B0
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0A6E
+- expected_values:
+    MAZDA_EVAP_V: 5
+    MAZDA_[ECU] EVAP PRES SENSOR V: 5
+  response: 7E80562038E0A7D
