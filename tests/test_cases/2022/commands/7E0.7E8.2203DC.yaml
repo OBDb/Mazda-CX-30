@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.2203DC
 test_cases:
 - expected_values:
-    MAZDA_HPFP_DES: 494.57869
-  response: 7E8056203DC0155
+    MAZDA_HPFP_DES: 436.5636
+  response: 7E8056203DC012D
 - expected_values:
     MAZDA_HPFP_DES: 1483.73608
   response: 7E8056203DC03FF
