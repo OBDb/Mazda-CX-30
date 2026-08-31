@@ -1,8 +1,8 @@
 command_id: 723.72B.22DCE1
 test_cases:
 - expected_values:
-    MAZDA_IG_ON_TIMER: 0.5
-  response: 72B0562DCE1001E
+    MAZDA_IG_ON_TIMER: 0.45
+  response: 72B0562DCE1001B
 - expected_values:
     MAZDA_IG_ON_TIMER: 4.01667
   response: 72B0562DCE100F1
