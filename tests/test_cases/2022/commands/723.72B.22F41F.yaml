@@ -1,0 +1,5 @@
+command_id: 723.72B.22F41F
+test_cases:
+- expected_values:
+    MAZDA_ENGINE_RUN_TIME: 6
+  response: 72B0562F41F0006

@@ -1,0 +1,11 @@
+command_id: 723.72B.22DD01
+test_cases:
+- expected_values:
+    MAZDA_ODO: 75483
+  response: 72B0662DD010126DB
+- expected_values:
+    MAZDA_ODO: 75487
+  response: 72B0662DD010126DF
+- expected_values:
+    MAZDA_ODO: 75489
+  response: 72B0662DD010126E1

@@ -1,0 +1,8 @@
+command_id: 723.72B.22D90E
+test_cases:
+- expected_values:
+    MAZDA_12V_VOLTAGE: 13.86
+  response: 72B0562D90E056A
+- expected_values:
+    MAZDA_12V_VOLTAGE: 13.87
+  response: 72B0562D90E056B
