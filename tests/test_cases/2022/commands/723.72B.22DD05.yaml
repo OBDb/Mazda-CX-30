@@ -1,0 +1,8 @@
+command_id: 723.72B.22DD05
+test_cases:
+- expected_values:
+    MAZDA_AAT: 18
+  response: 72B0462DD053A
+- expected_values:
+    MAZDA_AAT: 19
+  response: 72B0462DD053B
