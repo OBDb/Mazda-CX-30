@@ -1,11 +1,11 @@
 command_id: 723.72B.22D914
 test_cases:
 - expected_values:
-    MAZDA_HV_EV_BATT_SOC: 44.2
-  response: 72B0562D91401BA
+    MAZDA_HV_EV_BATT_SOC: 42
+  response: 72B0562D91401A4
 - expected_values:
-    MAZDA_HV_EV_BATT_SOC: 51.5
-  response: 72B0562D9140203
+    MAZDA_HV_EV_BATT_SOC: 50.9
+  response: 72B0562D91401FD
 - expected_values:
-    MAZDA_HV_EV_BATT_SOC: 57.4
-  response: 72B0562D914023E
+    MAZDA_HV_EV_BATT_SOC: 51.3
+  response: 72B0562D9140201

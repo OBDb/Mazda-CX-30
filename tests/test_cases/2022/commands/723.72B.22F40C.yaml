@@ -1,11 +1,14 @@
 command_id: 723.72B.22F40C
 test_cases:
 - expected_values:
-    MAZDA_ENGINE_RPM: 987
-  response: 72B0562F40C0F6C
+    MAZDA_ENGINE_RPM: 700.25
+  response: 72B0562F40C0AF1
 - expected_values:
-    MAZDA_ENGINE_RPM: 2822
-  response: 72B0562F40C2C18
+    MAZDA_ENGINE_RPM: 702.5
+  response: 72B0562F40C0AFA
 - expected_values:
-    MAZDA_ENGINE_RPM: 3257.25
-  response: 72B0562F40C32E5
+    MAZDA_ENGINE_RPM: 2689
+  response: 72B0562F40C2A04
+- expected_values:
+    MAZDA_ENGINE_RPM: 3243
+  response: 72B0562F40C32AC
