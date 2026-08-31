@@ -1,11 +1,11 @@
 command_id: 723.72B.22480D
 test_cases:
 - expected_values:
-    MAZDA_HVBAT_VOLTAGE: 22.04
-  response: 72B0562480D089C
+    MAZDA_HVBAT_VOLTAGE: 21.69
+  response: 72B0562480D0879
 - expected_values:
-    MAZDA_HVBAT_VOLTAGE: 22.2
-  response: 72B0562480D08AC
+    MAZDA_HVBAT_VOLTAGE: 22.51
+  response: 72B0562480D08CB
 - expected_values:
-    MAZDA_HVBAT_VOLTAGE: 22.46
-  response: 72B0562480D08C6
+    MAZDA_HVBAT_VOLTAGE: 24.03
+  response: 72B0562480D0963

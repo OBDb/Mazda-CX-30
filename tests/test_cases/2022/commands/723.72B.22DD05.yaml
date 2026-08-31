@@ -6,3 +6,9 @@ test_cases:
 - expected_values:
     MAZDA_AAT: 19
   response: 72B0462DD053B
+- expected_values:
+    MAZDA_AAT: 20
+  response: 72B0462DD053C
+- expected_values:
+    MAZDA_AAT: 21
+  response: 72B0462DD053D
