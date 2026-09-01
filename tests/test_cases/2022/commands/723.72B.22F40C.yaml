@@ -4,8 +4,8 @@ test_cases:
     MAZDA_ENGINE_RPM: 700.25
   response: 72B0562F40C0AF1
 - expected_values:
-    MAZDA_ENGINE_RPM: 702.5
-  response: 72B0562F40C0AFA
+    MAZDA_ENGINE_RPM: 702.75
+  response: 72B0562F40C0AFB
 - expected_values:
     MAZDA_ENGINE_RPM: 2689
   response: 72B0562F40C2A04
