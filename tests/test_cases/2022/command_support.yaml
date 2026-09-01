@@ -166,6 +166,7 @@ supported_commands_by_ecu:
   - 0142:VPWR
   - 0149:APP_D
   - 7E1.7E9.0105
+  - 7E1.7E9.0111
   - 7E1.7E9.0131
   - 7E1.7E9.221E1C:MAZDA_TRANS_T_V6
 unsupported_commands_by_ecu:
