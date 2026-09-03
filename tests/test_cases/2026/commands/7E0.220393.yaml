@@ -4,26 +4,8 @@ test_cases:
     MAZDA_AC_P: 189.4193
   response: 7E805620393028D
 - expected_values:
-    MAZDA_AC_P: 198.99179
-  response: 7E80562039302AE
+    MAZDA_AC_P: 360.27377
+  response: 7E80562039304DA
 - expected_values:
-    MAZDA_AC_P: 277.31217
-  response: 7E80562039303BC
-- expected_values:
-    MAZDA_AC_P: 283.11368
-  response: 7E80562039303D0
-- expected_values:
-    MAZDA_AC_P: 306.02965
-  response: 7E805620393041F
-- expected_values:
-    MAZDA_AC_P: 308.9304
-  response: '7E8056203930429'
-- expected_values:
-    MAZDA_AC_P: 323.1441
-  response: 7E805620393045A
-- expected_values:
-    MAZDA_AC_P: 336.48758
-  response: '7E8056203930488'
-- expected_values:
-    MAZDA_AC_P: 345.18984
-  response: 7E80562039304A6
+    MAZDA_AC_P: 447.29642
+  response: '7E8056203930606'

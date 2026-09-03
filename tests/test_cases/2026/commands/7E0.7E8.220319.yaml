@@ -25,5 +25,8 @@ test_cases:
     MAZDA_VCT_EXH_ACT: 27.875
   response: 7E80562031901BE
 - expected_values:
+    MAZDA_VCT_EXH_ACT: 28.9375
+  response: 7E80562031901CF
+- expected_values:
     MAZDA_VCT_EXH_ACT: 50
   response: 7E805620319036D
