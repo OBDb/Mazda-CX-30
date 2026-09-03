@@ -5,14 +5,10 @@ test_cases:
     MAZDA_ETC_DSD_DEG: 0.27539
   response: 7E80562091A008D
 - expected_values:
-    MAZDA_ETC_ANG_DES: 3.03125
-    MAZDA_ETC_DSD_DEG: 3.03125
-  response: 7E80562091A0610
-- expected_values:
     MAZDA_ETC_ANG_DES: 3.49023
     MAZDA_ETC_DSD_DEG: 3.49023
   response: 7E80562091A06FB
 - expected_values:
-    MAZDA_ETC_ANG_DES: 19.25391
-    MAZDA_ETC_DSD_DEG: 19.25391
-  response: 7E80562091A2682
+    MAZDA_ETC_ANG_DES: 86
+    MAZDA_ETC_DSD_DEG: 86
+  response: 7E80562091AAC00

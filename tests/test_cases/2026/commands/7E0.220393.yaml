@@ -4,8 +4,8 @@ test_cases:
     MAZDA_AC_P: 189.4193
   response: 7E805620393028D
 - expected_values:
-    MAZDA_AC_P: 360.27377
-  response: 7E80562039304DA
-- expected_values:
     MAZDA_AC_P: 447.29642
   response: '7E8056203930606'
+- expected_values:
+    MAZDA_AC_P: 511.11302
+  response: 7E80562039306E2
