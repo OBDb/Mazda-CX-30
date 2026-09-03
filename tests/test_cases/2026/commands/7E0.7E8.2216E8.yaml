@@ -10,5 +10,5 @@ test_cases:
     MAZDA_GEN_FC: 65.626
   response: 7E8056216E85400
 - expected_values:
-    MAZDA_GEN_FC: 81.69986
-  response: 7E8056216E86893
+    MAZDA_GEN_FC: 95.65881
+  response: 7E8056216E87A71
