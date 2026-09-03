@@ -5,33 +5,13 @@ test_cases:
     MAZDA_LPFP_DUTY: 44.91272
   response: 7E805620307397D
 - expected_values:
-    MAZDA_FP_LD: 22.48722
-    MAZDA_LPFP_DUTY: 44.97375
-  response: '7E8056203073991'
-- expected_values:
-    MAZDA_FP_LD: 22.57115
-    MAZDA_LPFP_DUTY: 45.1416
-  response: 7E80562030739C8
-- expected_values:
-    MAZDA_FP_LD: 22.5742
-    MAZDA_LPFP_DUTY: 45.1477
-  response: 7E80562030739CA
-- expected_values:
     MAZDA_FP_LD: 22.64744
     MAZDA_LPFP_DUTY: 45.29419
   response: 7E80562030739FA
 - expected_values:
-    MAZDA_FP_LD: 22.87327
-    MAZDA_LPFP_DUTY: 45.74585
-  response: 7E8056203073A8E
-- expected_values:
     MAZDA_FP_LD: 23.07774
     MAZDA_LPFP_DUTY: 46.15478
   response: 7E8056203073B14
-- expected_values:
-    MAZDA_FP_LD: 23.35393
-    MAZDA_LPFP_DUTY: 46.70715
-  response: 7E8056203073BC9
 - expected_values:
     MAZDA_FP_LD: 23.46838
     MAZDA_LPFP_DUTY: 46.93603

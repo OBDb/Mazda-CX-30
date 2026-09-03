@@ -13,5 +13,11 @@ test_cases:
     MAZDA_TT_FR_V4: 30
   response: 72E0462D92750
 - expected_values:
+    MAZDA_TT_FR_V4: 34
+  response: 72E0462D92754
+- expected_values:
     MAZDA_TT_FR_V4: 37
   response: 72E0462D92757
+- expected_values:
+    MAZDA_TT_FR_V4: 41
+  response: 72E0462D9275B
