@@ -1,29 +1,8 @@
 command_id: 726.22D926
 test_cases:
 - expected_values:
-    MAZDA_TT_FL_V3: 25
-  response: 72E0462D9264B
-- expected_values:
-    MAZDA_TT_FL_V3: 26
-  response: 72E0462D9264C
-- expected_values:
-    MAZDA_TT_FL_V3: 32
-  response: 72E0462D92652
-- expected_values:
-    MAZDA_TT_FL_V3: 33
-  response: 72E0462D92653
-- expected_values:
-    MAZDA_TT_FL_V3: 34
-  response: 72E0462D92654
-- expected_values:
-    MAZDA_TT_FL_V3: 36
-  response: 72E0462D92656
-- expected_values:
-    MAZDA_TT_FL_V3: 38
-  response: 72E0462D92658
-- expected_values:
-    MAZDA_TT_FL_V3: 39
-  response: 72E0462D92659
+    MAZDA_TT_FL_V3: 22
+  response: 72E0462D92648
 - expected_values:
     MAZDA_TT_FL_V3: 40
   response: 72E0462D9265A
