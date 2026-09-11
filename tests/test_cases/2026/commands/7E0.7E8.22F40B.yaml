@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F40B
 test_cases:
 - expected_values:
-    MAZDA_MAP_V2: 3.04582
-  response: 7E80462F40B15
+    MAZDA_MAP_V2: 2.6107
+  response: 7E80462F40B12
 - expected_values:
     MAZDA_MAP_V2: 14.06878
   response: 7E80462F40B61
