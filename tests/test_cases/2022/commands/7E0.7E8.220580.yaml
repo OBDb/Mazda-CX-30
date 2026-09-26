@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.220580
 test_cases:
 - expected_values:
-    MAZDA_GRILL_SHUTTER_POSITION: 7.05882
+    MAZDA_GRILL_SHUTTER_POS: 7.05882
   response: '7E80462058012'
 - expected_values:
-    MAZDA_GRILL_SHUTTER_POSITION: 100
+    MAZDA_GRILL_SHUTTER_POS: 100
   response: 7E804620580FF
