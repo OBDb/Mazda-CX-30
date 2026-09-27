@@ -2,10 +2,13 @@ command_id: 7E0.7E8.220318
 test_cases:
 - expected_values:
     MAZDA_VCT_INT_ACT: 0
+    MAZDA_[ECU] VCT intake actual: 0
   response: '7E8056203180000'
 - expected_values:
-    MAZDA_VCT_INT_ACT: 0
+    MAZDA_VCT_INT_ACT: 15.9375
+    MAZDA_[ECU] VCT intake actual: 0
   response: 7E80562031800FF
 - expected_values:
-    MAZDA_VCT_INT_ACT: 0
+    MAZDA_VCT_INT_ACT: 4095.6875
+    MAZDA_[ECU] VCT intake actual: 0
   response: 7E805620318FFFB

@@ -2,13 +2,17 @@ command_id: 7E0.7E8.2203E8
 test_cases:
 - expected_values:
     MAZDA_OAR: 0.25537
+    MAZDA_[ECU] OAR: 0.25537
   response: 7E8056203E81058
 - expected_values:
     MAZDA_OAR: 0.26355
+    MAZDA_[ECU] OAR: 0.26355
   response: 7E8056203E810DE
 - expected_values:
     MAZDA_OAR: 0.26624
+    MAZDA_[ECU] OAR: 0.26624
   response: 7E8056203E8110A
 - expected_values:
     MAZDA_OAR: 0.62653
+    MAZDA_[ECU] OAR: 0.62653
   response: 7E8056203E82819

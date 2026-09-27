@@ -1,8 +1,0 @@
-command_id: 726.22D926
-test_cases:
-- expected_values:
-    MAZDA_TT_FL_V3: 22
-  response: 72E0462D92648
-- expected_values:
-    MAZDA_TT_FL_V3: 40
-  response: 72E0462D9265A
