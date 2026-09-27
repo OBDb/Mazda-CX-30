@@ -1,0 +1,5 @@
+command_id: 7E1.7E9.22DD01
+test_cases:
+- expected_values:
+    MAZDA_TRANS_ODO: 39275
+  response: 7E90662DD0100996B
