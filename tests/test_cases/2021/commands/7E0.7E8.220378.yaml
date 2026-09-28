@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.220378
+test_cases:
+- expected_values:
+    MAZDA_GEN_CTRL: 0
+  response: '7E8056203780000'
