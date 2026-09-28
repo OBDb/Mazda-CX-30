@@ -1,14 +1,11 @@
 command_id: 7E1.7E9.221EE4
 test_cases:
 - expected_values:
-    MAZDA_TQ_ACT: 9
-  response: 7E905621EE401C2
-- expected_values:
-    MAZDA_TQ_ACT: 128
-  response: 7E905621EE41900
+    MAZDA_TQ_ACT: 0
+  response: 7E905621EE40000
 - expected_values:
     MAZDA_TQ_ACT: -41
   response: 7E905621EE4F7FE
 - expected_values:
-    MAZDA_TQ_ACT: -1
-  response: 7E905621EE4FFCE
+    MAZDA_TQ_ACT: -2
+  response: 7E905621EE4FF9C
