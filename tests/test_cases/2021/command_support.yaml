@@ -544,4 +544,4 @@ unsupported_commands_by_ecu:
   "D016":
   - D016.22EE6F|ta=30,fc=1,c=1D:MAZDA_APP_POS
   "D01A":
-  - D01A.224028|ta=01,fc=1,c=1D:MAZDA_SOC_V2
+  - D01A.224028
