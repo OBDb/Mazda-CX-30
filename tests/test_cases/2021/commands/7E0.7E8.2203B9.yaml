@@ -1,0 +1,6 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    MAZDA_COOLING_FAN_DUTY: 0
+    MAZDA_FAN_SPD_DES: 0
+  response: 7E8056203B90000
