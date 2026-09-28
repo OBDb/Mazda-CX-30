@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F45E
+test_cases:
+- expected_values:
+    MAZDA_ENG_FUEL_RATE: 0
+  response: 7E80562F45E0000
+- expected_values:
+    MAZDA_ENG_FUEL_RATE: 11.95
+  response: 7E80562F45E00EF
+- expected_values:
+    MAZDA_ENG_FUEL_RATE: 18.45
+  response: 7E80562F45E0171
