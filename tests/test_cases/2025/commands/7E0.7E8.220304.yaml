@@ -4,8 +4,8 @@ test_cases:
     MAZDA_CMD_GEN_V: 13.80942
   response: 7E8056203046E8A
 - expected_values:
-    MAZDA_CMD_GEN_V: 13.81918
-  response: 7E8056203046E9E
+    MAZDA_CMD_GEN_V: 13.95826
+  response: 7E8056203046FBB
 - expected_values:
     MAZDA_CMD_GEN_V: 14.00999
   response: '7E8056203047025'
