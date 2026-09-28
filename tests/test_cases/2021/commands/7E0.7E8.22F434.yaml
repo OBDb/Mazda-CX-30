@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    MAZDA_AIR_FUEL_RAT: 12.71332
+  response: 7E80762F4346F277F21
+- expected_values:
+    MAZDA_AIR_FUEL_RAT: 14.52505
+  response: 7E80762F4347EFE8000
+- expected_values:
+    MAZDA_AIR_FUEL_RAT: 14.75916
+  response: 7E80762F434810A8008
+- expected_values:
+    MAZDA_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF81FF
+- expected_values:
+    MAZDA_AIR_FUEL_RAT: 29.2801
+  response: 7E80762F434FFFF840C
