@@ -9,6 +9,10 @@ test_cases:
     MAZDA_FAN_SPD_DES: 11.53582
   response: 7E8056203B90EC4
 - expected_values:
+    MAZDA_COOLING_FAN_DUTY: 14.99962
+    MAZDA_FAN_SPD_DES: 14.99962
+  response: 7E8056203B91333
+- expected_values:
     MAZDA_COOLING_FAN_DUTY: 18.01785
     MAZDA_FAN_SPD_DES: 18.01785
   response: 7E8056203B91710
