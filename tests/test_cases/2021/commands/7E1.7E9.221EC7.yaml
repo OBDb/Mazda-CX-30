@@ -7,5 +7,5 @@ test_cases:
     MAZDA_TQ_DES: 179
   response: 7E905621EC722F6
 - expected_values:
-    MAZDA_TQ_DES: -3
-  response: 7E905621EC7FF6A
+    MAZDA_TQ_DES: -4
+  response: 7E905621EC7FF38
