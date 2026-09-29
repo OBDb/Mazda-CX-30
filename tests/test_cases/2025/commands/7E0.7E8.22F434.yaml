@@ -20,4 +20,4 @@ test_cases:
   response: 7E80762F434FFFF826B
 - expected_values:
     MAZDA_AIR_FUEL_RAT: 29.2801
-  response: 7E80762F434FFFF8302
+  response: 7E80762F434FFFF8409
