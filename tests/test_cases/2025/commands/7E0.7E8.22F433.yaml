@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     MAZDA_BAROMETRIC_P: 100
   response: 7E80462F43364
+- expected_values:
+    MAZDA_BAROMETRIC_P: 101
+  response: 7E80462F43365
