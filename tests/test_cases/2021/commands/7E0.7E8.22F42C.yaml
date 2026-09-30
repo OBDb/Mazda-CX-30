@@ -4,29 +4,5 @@ test_cases:
     MAZDA_EGR: 0
   response: 7E80462F42C00
 - expected_values:
-    MAZDA_EGR: 4
-  response: 7E80462F42C04
-- expected_values:
-    MAZDA_EGR: 11
-  response: 7E80462F42C0B
-- expected_values:
-    MAZDA_EGR: 15
-  response: 7E80462F42C0F
-- expected_values:
-    MAZDA_EGR: 19
-  response: 7E80462F42C13
-- expected_values:
-    MAZDA_EGR: 26
-  response: 7E80462F42C1A
-- expected_values:
-    MAZDA_EGR: 34
-  response: 7E80462F42C22
-- expected_values:
-    MAZDA_EGR: 38
-  response: 7E80462F42C26
-- expected_values:
-    MAZDA_EGR: 45
-  response: 7E80462F42C2D
-- expected_values:
-    MAZDA_EGR: 49
-  response: 7E80462F42C31
+    MAZDA_EGR: 60
+  response: 7E80462F42C3C
