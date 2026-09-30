@@ -10,6 +10,12 @@ test_cases:
     MAZDA_EGR: 11
   response: 7E80462F42C0B
 - expected_values:
+    MAZDA_EGR: 15
+  response: 7E80462F42C0F
+- expected_values:
+    MAZDA_EGR: 19
+  response: 7E80462F42C13
+- expected_values:
     MAZDA_EGR: 26
   response: 7E80462F42C1A
 - expected_values:
