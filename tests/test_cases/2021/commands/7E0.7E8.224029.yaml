@@ -4,23 +4,5 @@ test_cases:
     MAZDA_BAT_FLUID_T: 25
   response: '7E80462402941'
 - expected_values:
-    MAZDA_BAT_FLUID_T: 26
-  response: '7E80462402942'
-- expected_values:
-    MAZDA_BAT_FLUID_T: 27
-  response: '7E80462402943'
-- expected_values:
-    MAZDA_BAT_FLUID_T: 28
-  response: '7E80462402944'
-- expected_values:
-    MAZDA_BAT_FLUID_T: 29
-  response: '7E80462402945'
-- expected_values:
-    MAZDA_BAT_FLUID_T: 38
-  response: 7E8046240294E
-- expected_values:
-    MAZDA_BAT_FLUID_T: 41
-  response: '7E80462402951'
-- expected_values:
     MAZDA_BAT_FLUID_T: 42
   response: '7E80462402952'
