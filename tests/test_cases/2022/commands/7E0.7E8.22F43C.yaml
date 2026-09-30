@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F43C
 test_cases:
 - expected_values:
-    MAZDA_CAT_TEMP: 85.5
+    CX30_CAT_TEMP: 85.5
   response: 7E80562F43C04E7
 - expected_values:
-    MAZDA_CAT_TEMP: 344.1
+    CX30_CAT_TEMP: 344.1
   response: 7E80562F43C0F01
 - expected_values:
-    MAZDA_CAT_TEMP: 446.3
+    CX30_CAT_TEMP: 446.3
   response: 7E80562F43C12FF
 - expected_values:
-    MAZDA_CAT_TEMP: 861.9
+    CX30_CAT_TEMP: 861.9
   response: 7E80562F43C233B

@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22F431
 test_cases:
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 1
+    CX30_DIST_DTC_CLR: 1
   response: 7E80562F4310001
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 1023
+    CX30_DIST_DTC_CLR: 1023
   response: 7E80562F43103FF
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 1024
+    CX30_DIST_DTC_CLR: 1024
   response: 7E80562F4310400
 - expected_values:
-    MAZDA_DIST_DTC_CLR: 24613
+    CX30_DIST_DTC_CLR: 24613
   response: 7E80562F4316025

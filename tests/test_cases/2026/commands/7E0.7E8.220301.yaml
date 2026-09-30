@@ -1,18 +1,14 @@
 command_id: 7E0.7E8.220301
 test_cases:
 - expected_values:
-    MAZDA_MAP: 0.843
-    MAZDA_MAP_V: 0.82324
+    CX30_MAP: 0.843
   response: 7E805620301034B
 - expected_values:
-    MAZDA_MAP: 1.786
-    MAZDA_MAP_V: 1.74414
+    CX30_MAP: 1.786
   response: 7E80562030106FA
 - expected_values:
-    MAZDA_MAP: 1.807
-    MAZDA_MAP_V: 1.76465
+    CX30_MAP: 1.807
   response: 7E805620301070F
 - expected_values:
-    MAZDA_MAP: 4
-    MAZDA_MAP_V: 4.03125
+    CX30_MAP: 4
   response: '7E8056203011020'

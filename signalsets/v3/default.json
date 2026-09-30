@@ -1,4 +1,1101 @@
 { "commands": [
-
+{ "hdr": "720", "rax": "728", "cmd": {"22": "61B1"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_FUEL_LEVEL", "path": "Fuel", "fmt": { "len": 8, "max": 55, "unit": "liters" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "480D"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_HVBAT_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "mul": 10, "div": 1000, "unit": "volts" }, "name": "Battery pack voltage", "suggestedMetric": "tractionBatteryVoltage"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "D90E"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_12V_VOLTAGE", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "mul": 100, "div": 10000, "unit": "volts" }, "name": "12V battery voltage"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "D914"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_HV_EV_BATT_SOC", "path": "Battery", "fmt": { "len": 16, "max": 100, "div": 10, "unit": "percent" }, "name": "High voltage battery state of charge", "suggestedMetric": "stateOfCharge"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "DCE1"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_IG_ON_TIMER", "path": "Engine", "fmt": { "len": 16, "max": 1092.25, "div": 60, "unit": "minutes" }, "name": "Engine runtime"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "DCE2"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_12V_SOC_723", "path": "Battery", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "12V battery state of charge"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "DD01"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_ODO_723", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Total distance", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "DD05"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_AAT", "path": "Climate", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Ambient air temperature"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "F40C"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_ENGINE_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine RPM"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "F40D"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_VEHICLE_SPEED", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "723", "rax": "72B", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_ENGINE_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Engine run time"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D922"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP_FL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 51, "unit": "psi" }, "name": "Front left pressure", "suggestedMetric": "frontLeftTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D923"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP_FR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 51, "unit": "psi" }, "name": "Front right pressure", "suggestedMetric": "frontRightTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D924"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP_RL", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 51, "unit": "psi" }, "name": "Rear left pressure", "suggestedMetric": "rearLeftTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D925"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP_RR", "path": "Tires", "fmt": { "len": 8, "max": 51, "div": 5, "nullmax": 51, "unit": "psi" }, "name": "Rear right pressure", "suggestedMetric": "rearRightTirePressure"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D926"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TT_FL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 205, "unit": "celsius" }, "name": "Front left temperature", "suggestedMetric": "frontLeftTireTemperature"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D927"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TT_FR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 205, "unit": "celsius" }, "name": "Front right temperature", "suggestedMetric": "frontRightTireTemperature"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D928"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TT_RL", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 205, "unit": "celsius" }, "name": "Rear left temperature", "suggestedMetric": "rearLeftTireTemperature"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "D929"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 205, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DA05"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
+  ]},
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ODO_726", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer, instrument panel", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B00"}, "freq": 3, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_PARKING_BRAKE", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Focus parking brake state"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B06"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_FR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front right wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B07"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_FL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Front left wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B08"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_RR_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear right wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B09"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_RL_VSS", "path": "Movement", "fmt": { "len": 8, "max": 200, "unit": "kilometersPerHour" }, "name": "Rear left wheel speed"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_LAT_ANG", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Lateral angle, raw count"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B0D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_BRK_FL_P", "path": "Control", "fmt": { "len": 16, "max": 65535, "nullmax": 65535, "unit": "scalar" }, "name": "Brake hydraulic pressure, raw count"}
+  ]},
+{ "hdr": "760", "rax": "768", "cmd": {"22": "2B11"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_LAT_G_760", "path": "Movement", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "scalar" }, "name": "Lateral acceleration, raw count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "21"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_CC_S", "path": "Cruise control", "fmt": {"bix": 8, "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Cruise control speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "51"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_PREV_TRIP_DST", "path": "Trips",  "fmt": {"bix": 40, "len": 16, "max": 655.35,             "div": 100,             "unit": "kilometers" }, "name": "Previous trip distance"},
+    {"id": "CX30_VVTOT",         "path": "Engine", "fmt": {"bix": 56, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Variable valve timing oil temperature"},
+    {"id": "CX30_EOT_V1",        "path": "Engine", "fmt": {"bix": 72, "len": 8,  "max": 215,    "min": -40,             "add": -40, "unit": "celsius"    }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"21": "82"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ATF_PAN_T", "path": "Transmission", "fmt": {           "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, pan",              "suggestedMetric": "transmissionFluidTemperature"},
+    {"id": "CX30_ATF_TQC_T", "path": "Transmission", "fmt": {"bix": 16, "len": 16, "max": 215, "min": -40, "div": 256, "add": -40, "unit": "celsius" }, "name": "Transmission temperature, torque converter", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0200"}, "freq": 3600,
+  "signals": [
+    {"id": "CX30_DTC_CNT", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0202"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_DTC_CNTD", "path": "DTCs", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Number of DTCs"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0301"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_MAP", "path": "Engine", "fmt": { "len": 16, "max": 4, "div": 1000, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_CMD_GEN_V", "path": "Battery", "fmt": { "len": 16, "max": 16, "mul": 0.000488, "unit": "volts" }, "name": "Commanded generator voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0306"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_EGR_OPEN_MM", "path": "Engine", "fmt": { "len": 16, "max": 100, "div": 100, "unit": "millimeters" }, "name": "Exhaust gas recirculation open", "description": "Monitors the physical position of the EGR valve, which controls the amount of exhaust gas being recirculated back into the engine's intake system."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0307"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_FP_LD", "path": "Fuel", "fmt": { "len": 16, "max": 100, "mul": 25, "div": 8192, "unit": "percent" }, "name": "Fuel pump duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "030F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_CL", "path": "Engine", "fmt": { "len": 16, "max": 1.9999, "div": 32768, "unit": "scalar" }, "name": "Lambda, commanded", "description": "The ratio of oxygen in the combustion chamber compared to the amount that should have been present for ideal combustion."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0316"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_VCT_INT_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Variable cam timing intake camshaft solenoid duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0317"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_VCT_EXH_DUTY", "fmt": { "len": 16, "max": 100, "mul": 0.0030517578, "unit": "percent" }, "name": "Variable cam timing exhaust camshaft solenoid duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0318"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_VCT_INT_ACT", "fmt": { "len": 16, "max": 2047, "min": -2048, "div": 16, "sign": true, "unit": "degrees" }, "name": "Variable camshaft timing, intake camshaft actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0319"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_VCT_EXH_ACT", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Variable cam timing exhaust camshaft actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "031A"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VCT_INT_ERR", "fmt": { "len": 16, "max": 50, "min": -50, "div": 16, "sign": true, "unit": "degrees" }, "name": "Variable cam timing intake camshaft error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "031B"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VCT_EXH_ERR", "fmt": { "len": 16, "max": 50, "div": 16, "unit": "degrees" }, "name": "Variable cam timing exhaust camshaft error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0324"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_HPFP_V", "fmt": { "len": 16, "max": 5, "div": 204.6, "unit": "volts" }, "name": "High pressure fuel rail sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "032B"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ACC_POS", "fmt": { "len": 8, "max": 100, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0334"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_PCM_CYL_HEAD_T_CORR", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0338"}, "freq": 3600,
+  "signals": [
+    {"id": "CX30_ETC_TRIM_LEARNED", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Electronic throttle control learned trim angle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "033C"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TIP_V", "fmt": { "len": 16, "max": 5, "div": 204.8, "unit": "volts" }, "name": "Throttle inlet pressure sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "033E"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TIP_ABS", "fmt": { "len": 16, "max": 60, "div": 903.8107848, "unit": "psi" }, "name": "Throttle inlet pressure absolute"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0345"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_MISF_EVENTS_LATEST_CYC", "path": "Engine", "fmt": { "len": 32, "max": 4294967295, "unit": "scalar" }, "name": "Misfire events, latest cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0353"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BARO", "fmt": { "len": 16, "max": 20, "min": 8, "div": 27.582114, "unit": "psi" }, "name": "Barometric pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "035A"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BARO_V_7E0", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Barometric pressure sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "035F"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_RO2_V", "fmt": { "len": 16, "max": 1, "div": 1024, "unit": "volts" }, "name": "Rear O2 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0370"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_GEN_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Generator control"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0382"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_MISF_ACCEL_CYL1_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0388"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_MISF_ACCEL_CYL2_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038A"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_MISF_ACCEL_CYL3_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038B"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_MISF_ACCEL_CYL4_NORM", "path": "Engine", "fmt": { "len": 8, "max": 1.98, "min": -2, "div": 64, "sign": true, "unit": "scalar" }, "name": "Misfire acceleration, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "038E"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_EVAP_RAW", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Evaporative pressure sensor, raw count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "038F"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ECT", "fmt": { "len": 16, "max": 148.889, "min": -40, "div": 64, "sign": true, "unit": "celsius" }, "name": "Engine coolant temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0393"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_AC_P", "path": "Climate", "fmt": { "len": 16, "max": 1000, "mul": 245251, "div": 845473, "unit": "psi" }, "name": "A/C compressor pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03AF"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TRQ_CTRL_REQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Torque request"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03B9"}, "freq": 1, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "CX30_COOLING_FAN_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 40, "div": 13107, "unit": "percent" }, "name": "Cooling fan duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BA"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_AAT_V", "fmt": { "len": 16, "max": 5, "mul": 0.0048875855, "unit": "volts" }, "name": "Ambient air temperature sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03BB"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VCT_EXH_DES", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "Variable cam timing exhaust cam, desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03BC"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VCT_INT_DES", "fmt": { "len": 16, "max": 2047, "min": -2047, "div": 16, "sign": true, "unit": "degrees" }, "name": "Variable cam timing intake cam, desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03BD"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_CL_LC", "fmt": { "len": 16, "max": 3.9, "min": -4, "div": 8192, "sign": true, "unit": "scalar" }, "name": "Closed loop lambda correction"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03CA"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_MCT", "fmt": { "len": 8, "max": 148.889, "unit": "celsius" }, "name": "Manifold charge temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03DB"}, "freq": 0.251,
+  "signals": [
+    {"id": "CX30_EXH_DIFF_P", "path": "Engine", "fmt": { "len": 16, "max": 4.5, "div": 200, "unit": "volts" }, "name": "Exhaust differential pressure", "description": "This sensor is crucial for monitoring how clogged the DPF has become. It measures the pressure before and after the DPF in the exhaust system, with the difference between these two measurements indicating how restricted the filter has become. When the pressure difference becomes too high (indicating a clogged filter), the ECM will initiate a regeneration process to burn off the accumulated soot and clean the filter."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DC"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_HPFP_DES", "fmt": { "len": 16, "max": 3500, "mul": 1.4503773969, "unit": "psi" }, "name": "High pressure fuel pressure desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03DF"}, "freq": 0.25, "dbgfilter": { "to": 2021, "from": 2023 },
+  "signals": [
+    {"id": "CX30_VGT_OPEN_PERC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 65535, "unit": "percent" }, "name": "Variable geometry turbocharger open", "description": "Measures the position of the vanes in the Variable Geometry Turbocharger (VGT) and reports this position as a percentage value."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03E5"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_AC_LOAD_SIG_V", "path": "Battery", "fmt": { "len": 16, "max": 319.9942, "mul": 12207, "div": 2500000, "unit": "volts" }, "name": "Air conditioning load signal voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03E8"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_OAR", "fmt": { "len": 16, "max": 1, "div": 16384, "sign": true, "unit": "scalar" }, "name": "Octane adjust ratio"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "03EC"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_IGN_CORR_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 63.9, "min": -64, "div": 512, "sign": true, "unit": "degrees" }, "name": "Ignition correction, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03F3"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_SUMP_OIL_T_MEAS", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Sump oil temperature measured"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03F4"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_EXH_GAS_T_1", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "celsius" }, "name": "Exhaust gas temperature 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03F5"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_EXH_GAS_T_2", "path": "Engine", "fmt": { "len": 8, "max": 1275, "mul": 5, "unit": "celsius" }, "name": "Exhaust gas temperature 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "03FB"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_EGR_OPEN_PERC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Exhaust gas recirculation open"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0403"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_KS1_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0404"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_KS2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Knock sensor, 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0415"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_EOP", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "Engine oil pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "041F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LPFP_DES", "path": "Engine", "fmt": { "len": 8, "max": 110, "mul": 435, "div": 1000, "unit": "psi" }, "name": "Fuel pressure, low desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0427"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BPV_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 1, "div": 255, "unit": "scalar" }, "name": "Bypass valve"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0435"}, "freq": 60,
+  "signals": [
+    {"id": "CX30_OIL_DIL_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Oil dilution events", "description": "Monitors fuel dilution in your engine oil, which is when fuel (gasoline) mixes with the engine oil in the crankcase."}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0451"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_OXY", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Oxygen concentration"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0460"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_CAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Charge air temperature sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0461"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CAT", "path": "Engine", "fmt": { "len": 16, "max": 189, "min": -40, "div": 64, "add": -40, "sign": true, "unit": "celsius" }, "name": "Charge air temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0462"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_WGDC", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Wastegate duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0466"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TIP_DES_ABS", "path": "Engine", "fmt": { "len": 16, "max": 72.5, "mul": 37, "div": 33441, "unit": "psi" }, "name": "Throttle inlet pressure, desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "046F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_INJ_MODE", "path": "Engine", "fmt": { "len": 8, "max": 7, "unit": "scalar" }, "name": "Injection mode"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "04F7"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_GEN_CURRENT", "path": "Engine", "fmt": { "len": 16, "max": 511.8205, "min": -511.8361, "mul": 781, "div": 50000, "sign": true, "unit": "amps" }, "name": "Generator current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "050F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VGT_OPEN", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "millimeters" }, "name": "Variable geometry turbocharger open"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0519"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_OIL_CHANGE_DIST", "path": "Fluids", "fmt": { "len": 16, "max": 262140, "mul": 4, "unit": "kilometers" }, "name": "Distance since oil changed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051C"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CHG_AIR_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "051D"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CYL_HEAD_T", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Cylinder head temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0522"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_CATDMG_MIS_1",           "path": "Engine", "fmt": {            "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 1"},
+    {"id": "CX30_CATDMG_MIS_2",           "path": "Engine", "fmt": {"bix": 8,   "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 2"},
+    {"id": "CX30_CATDMG_MIS_3",           "path": "Engine", "fmt": {"bix": 16,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 3"},
+    {"id": "CX30_CATDMG_MIS_4",           "path": "Engine", "fmt": {"bix": 24,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 4"},
+    {"id": "CX30_EMISSION_FAILURE_MIS_1", "path": "Engine", "fmt": {"bix": 64,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Emission failure misfires, cylinder 1"},
+    {"id": "CX30_EMISSION_FAILURE_MIS_2", "path": "Engine", "fmt": {"bix": 72,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Emission failure misfires, cylinder 2"},
+    {"id": "CX30_EMISSION_FAILURE_MIS_3", "path": "Engine", "fmt": {"bix": 80,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Emission failure misfires, cylinder 3"},
+    {"id": "CX30_EMISSION_FAILURE_MIS_4", "path": "Engine", "fmt": {"bix": 88,  "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Emission failure misfires, cylinder 4"},
+    {"id": "CX30_CATDMG_MIS_TOT",         "path": "Engine", "fmt": {"bix": 160, "len": 16, "max": 65535, "unit": "scalar" }, "name": "Catalyst damaging misfires total during this trip"},
+    {"id": "CX30_EMISSION_FAILURE_MIS",   "path": "Engine", "fmt": {"bix": 176, "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Emission failure misfires total during this trip"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "053F"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_TIME_SINCE_OIL", "path": "Engine", "fmt": { "len": 16, "max": 1000, "mul": 200, "div": 13107, "unit": "unknown" }, "name": "Time since last oil change"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0542"}, "freq": 3600,
+  "signals": [
+    {"id": "CX30_OIL_CHANGE_DIST_MAX", "path": "Fluids", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Max distance to oil change"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0548"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LPFP_ACT", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 10000, "div": 137892, "sign": true, "unit": "psi" }, "name": "Fuel pressure, low actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "054B"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_PCM_ENG_OIL_LIFE_REM", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Oil life remaining"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "054D"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LPFP_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "Fuel pressure sensor voltage, low"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "057D"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_AAT_ALT", "path": "Climate", "fmt": { "len": 8, "max": 87.5, "min": -40, "div": 2, "add": -40, "unit": "celsius" }, "name": "Ambient temperature, alternate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0580"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GRILL_SHUTTER_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05AC"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CYL_1_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05AD"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CYL_2_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05AE"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CYL_3_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 3"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05AF"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CYL_4_KNK_COMB_PERF_CNT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Knock counter, cylinder 4"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05BE"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TURBO_INLET_P", "path": "Engine", "fmt": { "len": 16, "max": 4095.9375, "div": 16, "unit": "kilopascal" }, "name": "Turbo inlet pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "05FC"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_PCM_CYL_HEAD_T_SENS_2_RAW", "path": "Engine", "fmt": { "len": 16, "max": 511, "min": -512, "div": 64, "sign": true, "unit": "celsius" }, "name": "Cylinder head temperature, sensor 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0604"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_A_C_REFRIG_P", "path": "Climate", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "kilopascal" }, "name": "A/C refrigerant pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0700"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_IAT_FAULT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Intake temperature fault"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0707"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GRILL_SHUT_DC", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Grill shutter duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "070D"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TRANSFER_CASE_FLUID_T", "path": "Engine", "fmt": { "len": 16, "max": 2047.9375, "min": -2048, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transfer case fluid temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0900"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MAP_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Manifold absolute pressure voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0914"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_APP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 1 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0915"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_APP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "APP sensor 2 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0917"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP1_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 1 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0918"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TP2_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Throttle position 2 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "091A"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ETC_DSD_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle control desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "092C"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ATF_T_VAR_6", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 6"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "093C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ETC_ACT_DEG", "path": "Engine", "fmt": { "len": 16, "max": 127.9, "div": 512, "unit": "degrees" }, "name": "Throttle position actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0967"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FAN3_SW", "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "0968"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_GEN_CHRGLP", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Generator warning light"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "096E"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_IDLE", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Idle speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "097C"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_GEN_DSD_V", "path": "Engine", "fmt": { "len": 16, "max": 31.99, "div": 2048, "unit": "volts" }, "name": "Generator voltage desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "098E"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_EGRP_STEPS", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Exhaust gas recirculation purge steps"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "099B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_AC_STATE", "path": "Climate", "fmt": { "len": 8, "max": 1, "unit": "offon" }, "name": "A/C compressor, state"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "099F"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_FAN_SPD_SENS", "path": "Movement", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Fan speed sensor"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09CB"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TQ_INTO_TQ_CONV", "path": "Engine", "fmt": { "len": 16, "max": 48336.1353, "div": 1.35581795, "unit": "newtonMeters" }, "name": "Torque into torque converter"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09D4"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_ACCEL_PEDAL_POS", "path": "Movement", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "percent" }, "name": "Accelerator pedal position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "09DB"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TURBO_BOOST", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Turbo boost"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1101"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_PSP_SW",    "path": "Engine",       "fmt": {          "len": 1, "max": 1, "unit": "offon" }, "name": "Power steering position switch"},
+    {"id": "CX30_INGEAR_SW", "path": "Transmission", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "In gear switch"},
+    {"id": "CX30_BOO_SW",    "path": "Engine",       "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake on/off switch"},
+    {"id": "CX30_ACCS_SW",   "path": "Engine",       "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C relay"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1103"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MIL_SW",  "path": "DTCs",   "fmt": {"bix": 2, "len": 1, "max": 1, "unit": "offon" }, "name": "Malfunction indicator lamp"},
+    {"id": "CX30_IMRC_SW", "path": "Engine", "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Intake manifold runner control"},
+    {"id": "CX30_FAN2_SW", "path": "Engine", "fmt": {"bix": 4, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"},
+    {"id": "CX30_FAN1_SW", "path": "Engine", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Cooling fan relay control"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1104"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_AC_REQ_SW", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "A/C refrigerant pressure switch"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "111F"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_EOT_2", "path": "Engine", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "unit": "celsius" }, "name": "Engine oil temperature 2", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1126"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_ERT", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "seconds" }, "name": "Engine run time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1127"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 1079.4118, "mul": 338639, "div": 80000, "unit": "kilopascal" }, "name": "Barometric pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113C"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_EGR_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Exhaust gas recirculation duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1141"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_INJ_IMPULSE_WIDTH", "path": "Engine", "fmt": { "len": 16, "max": 0.05, "mul": 0.000022, "unit": "seconds" }, "name": "Injector impulse width"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114A"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_IAT_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Intake air temp voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "114D"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_ECT_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Engine coolant temp voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1166"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_EVAP_PURGE_CMD", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 100, "div": 32768, "unit": "percent" }, "name": "Evaporative purge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1169"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TPCT", "path": "Engine", "fmt": { "len": 16, "max": 1023, "div": 64, "unit": "volts" }, "name": "Throttle position closed voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "116B"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_IGN_TIM_CYL1", "path": "Engine", "fmt": { "len": 16, "max": 80, "min": -80, "div": 4, "sign": true, "unit": "degrees" }, "name": "Ignition timing, cylinder 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1172"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BAT_V", "path": "Battery", "fmt": { "len": 8, "max": 15.9375, "div": 16, "unit": "volts" }, "name": "Battery voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1174"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_O2S12_A_V", "path": "Engine", "fmt": { "len": 16, "max": 63.99, "div": 1024, "unit": "volts" }, "name": "O2 sensor 1-2 voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1177"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MAF_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "Mass air-flow voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B3"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TRANS_GEAR", "path": "Transmission", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "scalar" }, "name": "Transmission gear"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B5"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TRANS_OUTPUT_SHFT", "path": "Transmission", "fmt": { "len": 16, "max": 1638.375, "div": 40, "unit": "rpm" }, "name": "Transmission output shaft speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11B8"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TQ_CONV_SLIP", "path": "Engine", "fmt": { "len": 16, "max": 39996.0104, "div": 1.6385384237, "unit": "rpm" }, "name": "Torque converter slip"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BA"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_CONV_SPD_RAT", "path": "Transmission", "fmt": { "len": 16, "max": 3996.0365, "mul": 5, "div": 82, "unit": "scalar" }, "name": "Converter speed ratio"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11BD"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TRANS_T_VAR_5", "path": "Transmission", "fmt": { "len": 16, "max": 7404.6875, "mul": 9, "div": 80, "add": 32, "unit": "fahrenheit" }, "name": "Transmission temperature, variant 5"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "11C0"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TQ_CONV_LINE_P", "path": "Transmission", "fmt": { "len": 8, "max": 8790.819, "mul": 172369, "div": 5000, "unit": "kilopascal" }, "name": "Torque converter line pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1279"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_IAT_SENS_V", "path": "Engine", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 1023, "unit": "volts" }, "name": "Intake temperature sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1305"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BOOST_DES", "path": "Engine", "fmt": { "len": 16, "max": 10.23, "div": 6400, "unit": "bars" }, "name": "Boost, desired"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1310"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_EOT", "path": "Engine", "fmt": { "len": 16, "max": 615.35, "min": -40, "div": 100, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1340"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_APP", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Accelerator pedal position, full range"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1410"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FUEL_PW", "path": "Fuel", "fmt": { "len": 16, "max": 524.28, "div": 125, "unit": "scalar" }, "name": "Injector fuel pulse width"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1440"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BOOST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "psi" }, "name": "Boost"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1505"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_VSS_HD", "path": "Movement", "fmt": { "len": 16, "max": 200, "div": 128, "unit": "kilometersPerHour" }, "name": "Vehicle speed, high resolution"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "160D"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_IMTV_SW", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Variable intake air control"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "160E"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MIS_CNT_1", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 1 misfire count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "160F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MIS_CNT_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 2 misfire count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1610"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MIS_CNT_3", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 3 misfire count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1611"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_MIS_CNT_4", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Cylinder 4 misfire count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1616"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TOT_MIS_CNT", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Total misfire count"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1624"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CYL_HEAD_T_7E0", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Cylinder head temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1631"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_O2S_HTR12_SW", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "O2 sensor 2 heater control, rear"},
+    {"id": "CX30_O2S_HTR11_SW", "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "O2 sensor 1 heater control, front"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1639"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FUEL_TANK_P", "path": "Fuel", "fmt": { "len": 16, "max": 9496.0214, "div": 6.9013112491, "unit": "psi" }, "name": "Fuel tank pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163A"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TQ_INTO_TQ_CONV_7E0", "path": "Engine", "fmt": { "len": 8, "max": 69.1467, "mul": 0.2711635897, "unit": "newtonMeters" }, "name": "Torque into torque converter"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163B"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TRANS_GEAR_RAT", "path": "Transmission", "fmt": { "len": 8, "max": 4015.748, "mul": 15.7480315, "unit": "scalar" }, "name": "Transmission gear ratio"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "163E"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_O2S12_FT", "path": "Engine", "fmt": { "len": 16, "max": 799.98, "mul": 100, "div": 8192, "unit": "percent" }, "name": "Rear O2 sensor fuel trim"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1672"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FUEL_PMP_DUTY", "path": "Fuel", "fmt": { "len": 8, "max": 199.2187, "mul": 25, "div": 32, "unit": "percent" }, "name": "Fuel pump duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1674"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ATF_T_VAR_1", "path": "Engine", "fmt": { "len": 16, "max": 8191, "div": 8, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1685"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CYL_HEAD_T_ALT", "path": "Engine", "fmt": { "len": 16, "max": 18415, "mul": 281, "div": 1000, "unit": "fahrenheit" }, "name": "Cylinder head temperature, alternate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "168B"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FUEL_INJ_IMPULSE", "path": "Fuel", "fmt": { "len": 16, "max": 0.1, "div": 125000, "unit": "seconds" }, "name": "Fuel injection impulse width"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16A8"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_IAT_2", "path": "Engine", "fmt": { "len": 16, "max": 36390, "min": -17.77, "mul": 5, "div": 9, "add": -17.777778, "unit": "celsius" }, "name": "Intake air temperature 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16B3"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BARO_V", "path": "Engine", "fmt": { "len": 16, "max": 65.535, "div": 1000, "unit": "volts" }, "name": "BARO sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16C1"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_FLI_7E0", "path": "Fuel", "fmt": { "len": 16, "max": 200, "mul": 0.0030518509, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CD"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VT_ACT", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "degrees" }, "name": "Valve timing actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CE"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VT_DIFF", "path": "Engine", "fmt": { "len": 16, "max": 4095, "div": 16, "unit": "degrees" }, "name": "Valve timing error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16CF"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_VT_DUTY", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Valve timing OCV control duty"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16E1"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_WASTEGATE_DUTY", "path": "Engine", "fmt": { "len": 8, "max": 99.6, "mul": 25, "div": 64, "unit": "percent" }, "name": "Wastegate duty cycle"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E8"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GEN_FC", "path": "Engine", "fmt": { "len": 16, "max": 200, "mul": 200, "div": 65535, "unit": "percent" }, "name": "Generator field coil control duty"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "16E9"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GEN_V", "path": "Engine", "fmt": { "len": 16, "max": 8191.875, "div": 8, "unit": "volts" }, "name": "Generator output voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "16F0"}, "freq": 3600,
+  "signals": [
+    {"id": "CX30_TIRESIZE", "path": "Tires", "fmt": { "len": 16, "max": 65535, "unit": "scalar" }, "name": "Tire revolutions per mile"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1706"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LAMBDA_MOD_SW", "path": "Engine", "fmt": {"bix": 1, "len": 1, "max": 1, "unit": "offon" }, "name": "Lambda modification switch"},
+    {"id": "CX30_HIDET_SW",      "path": "Engine", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "High detonation switch"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1718"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_FP_RELAY_SW", "path": "Fuel", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Fuel pump relay switch"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1723"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_BOOSTED_AIR_T", "path": "Engine", "fmt": { "len": 8, "max": 119, "min": -39.4, "mul": 5, "div": 8, "add": -39.4, "unit": "celsius" }, "name": "Boosted air temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1746"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_KNOCKR", "path": "Engine", "fmt": { "len": 8, "max": 89.78, "mul": 100, "div": 284, "unit": "degrees" }, "name": "Knock retard"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "174F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_AIR_FUEL_RAT_ACT", "path": "Engine", "fmt": { "len": 8, "max": 29.274, "mul": 287, "div": 2500, "unit": "scalar" }, "name": "Air/fuel ratio, actual"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17B3"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TRANS_T_VAR_1", "path": "Transmission", "fmt": { "len": 8, "max": 371.4, "min": -57, "mul": 42, "div": 25, "add": -57, "unit": "fahrenheit" }, "name": "Transmission temperature, variant 1"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F4"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LDP_MON_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP leak detection pump monitoring current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F5"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LDP_REF_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP leak detection pump reference current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F7"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LDP_IDL_CURRENT", "path": "Emissions", "fmt": { "len": 16, "max": 0.036, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP leak detection pump idle current"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17F8"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LDP_SL_DV", "path": "Emissions", "fmt": { "len": 16, "max": 0.036, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP leak detection pump small leak detect value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "17FA"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_LDP_EVAPCP", "path": "Emissions", "fmt": { "len": 16, "max": 0.036, "mul": 0.000000561, "unit": "amps" }, "name": "EVAP leak detection pump incorrect purge flow value"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E12"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_GEAR", "path": "Transmission", "name": "Current gear", "description": "The automatic transmission gear.", "fmt": {"len": 8, "map": {
+          "1":  { "description": "First gear",   "value": "1" },
+          "2":  { "description": "Second gear",  "value": "2" },
+          "3":  { "description": "Third gear",   "value": "3" },
+          "4":  { "description": "Fourth gear",  "value": "4" },
+          "5":  { "description": "Fifth gear",   "value": "5" },
+          "6":  { "description": "Sixth gear",   "value": "6" },
+          "7":  { "description": "Seventh gear", "value": "7" },
+          "8":  { "description": "Eighth gear",  "value": "8" },
+          "9":  { "description": "Ninth gear",   "value": "9" },
+          "10": { "description": "Tenth gear",   "value": "10" }
+        }}
+    }
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E16"}, "freq": 3600,
+  "signals": [
+    {"id": "CX30_AXLE_GEAR_RATIO_MEAS", "path": "Transmission", "fmt": { "len": 16, "max": 10, "div": 4096, "unit": "scalar" }, "name": "Axle gear ratio, measured"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E19"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CMD_TRANS_GEAR_RATIO", "path": "Transmission", "fmt": { "len": 16, "max": 16, "mul": 16, "div": 65535, "unit": "scalar" }, "name": "Gear ratio, commanded"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1A"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1C"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1F"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GEAR_ENG", "path": "Transmission", "fmt": { "len": 8, "max": 6, "unit": "scalar" }, "name": "Gear, engaged"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E23"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_GEAR_SHFT", "path": "Transmission", "name": "Shift gear", "fmt": {"len": 8, "map": {
+          "10": { "description": "Manual",  "value": "MANUAL" },
+          "46": { "description": "Drive",   "value": "DRIVE" },
+          "50": { "description": "Neutral", "value": "NEUTRAL" },
+          "60": { "description": "Reverse", "value": "REVERSE" },
+          "70": { "description": "Park",    "value": "PARK" }
+        }}
+    }
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "280A"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_BRAKE_FLUID_P", "path": "Control", "fmt": { "len": 16, "max": 51199.2187, "mul": 25, "div": 32, "unit": "kilopascal" }, "name": "Brake fluid pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4028"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BAT_ESTIMATED_ST_CHG", "path": "Battery", "fmt": { "len": 8, "max": 255, "unit": "percent" }, "name": "Battery estimated state of charge"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "4029"}, "freq": 5, "dbgfilter": { "to": 2020, "from": 2022 },
+  "signals": [
+    {"id": "CX30_BAT_FLUID_T", "path": "Battery", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Battery fluid temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4194"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_DTE", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, calculated", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "4195"}, "freq": 30,
+  "signals": [
+    {"id": "CX30_DTE_DISP", "path": "Trips", "fmt": { "len": 16, "max": 6553.5, "div": 10, "unit": "kilometers" }, "name": "Distance to empty, displayed", "suggestedMetric": "fuelRange"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "9800"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_AC_P_SENS_V", "path": "Climate", "fmt": { "len": 16, "max": 5, "div": 1024, "sign": true, "unit": "volts" }, "name": "A/C compressor pressure sensor voltage"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "A211"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_IVS_SW", "path": "Engine",       "fmt": {"bix": 3, "len": 1, "max": 1, "unit": "offon" }, "name": "Idle validation switch"},
+    {"id": "CX30_PNP_SW", "path": "Transmission", "fmt": {"bix": 5, "len": 1, "max": 1, "unit": "offon" }, "name": "Park neutral position switch"},
+    {"id": "CX30_BPA_SW", "path": "Engine",       "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Brake pressure applied switch"},
+    {"id": "CX30_CPP_SW", "path": "Transmission", "fmt": {"bix": 7, "len": 1, "max": 1, "unit": "offon" }, "name": "Clutch pedal position switch"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "A216"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_SCCS_V", "path": "Cruise control", "fmt": { "len": 16, "max": 5, "mul": 5, "div": 65535, "unit": "volts" }, "name": "Cruise control voltage", "description": "0.0V = On/Off Switch depressed, 1.1V = Cancel depressed, 3.1V = Set/- switch depressed, 4.2V = Res/+ switch depressed, 5.0V = Normal"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "D988"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BAT_ACCUMULATED_AMP", "path": "Battery", "fmt": { "len": 16, "max": 227.675, "min": -100, "div": 200, "add": -100, "unit": "ampereHours" }, "name": "Battery accumulated amp hours"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DA01"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_OIL_P_SOLENOID_VLV", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure solenoid valve, open"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "DA9D"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_BAT_INTERNAL_RES", "path": "Battery", "fmt": { "len": 16, "max": 0.6553, "div": 100000, "unit": "ohms" }, "name": "Battery internal resistance"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "DAA1"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TIM_CHAIN_ELONGATION",   "path": "Engine", "fmt": {           "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle"},
+    {"id": "CX30_TIM_CHAIN_ELONGATION_2", "path": "Engine", "fmt": {"bix": 16, "len": 16, "max": 32.76, "min": -32.76, "div": 1000, "add": -32.768, "unit": "scalar" }, "name": "Timing chain elongation angle 2"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "fcm1": true, "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ODO", "path": "Trips", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F404"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ENG_LOAD_PCT", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load", "suggestedMetric": "engineLoad"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F406"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_STFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, short term", "suggestedMetric": "shortTermFuelTrim"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F407"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_LTFT", "path": "Engine", "fmt": { "len": 8, "max": 99.2, "min": -100, "mul": 100, "div": 128, "add": -100, "unit": "percent" }, "name": "Fuel trim, long term"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_MAP_7E0", "path": "Engine", "fmt": { "len": 8, "max": 36, "mul": 10000, "div": 68947, "unit": "psi" }, "name": "Manifold pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40C"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_RPM", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "rpm" }, "name": "Engine speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40D"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_VSS", "path": "Movement", "fmt": { "len": 8, "max": 255, "unit": "kilometersPerHour" }, "name": "Vehicle speed", "suggestedMetric": "speed"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F40F"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_INT_SHUTTER_VLV_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Intake shutter valve position"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F41F"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_RUN_TIME", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "seconds" }, "name": "Engine run time"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F421"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_MIL_DIST", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance with MIL"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42C"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_EGR", "path": "Engine", "fmt": { "len": 8, "max": 100, "unit": "percent" }, "name": "Exhaust gas recirculation"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F42F"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_FLI", "path": "Fuel", "fmt": { "len": 8, "max": 100, "mul": 100, "div": 255, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F430"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_WARMUP_CLR", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Warm-ups since DTC clear"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F431"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_BAROMETRIC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.2801, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F43C"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_CAT_TEMP", "path": "Engine", "fmt": { "len": 16, "max": 6513.5, "min": -40, "div": 10, "add": -40, "unit": "celsius" }, "name": "Catalyst temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F443"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_ENG_LOAD_ACT", "path": "Engine", "fmt": { "len": 16, "max": 25700, "mul": 100, "div": 255, "unit": "percent" }, "name": "Engine load, actual", "suggestedMetric": "engineLoad"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F45C"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_EOT_F4", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "CX30_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "liters" }, "name": "Engine fuel rate"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F462"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_PCM_ACT_ENG_PCT_TRQ", "path": "Engine", "fmt": { "len": 8, "max": 100, "add": -125, "unit": "percent" }, "name": "Actual engine percent torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F463"}, "freq": 3600, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_PCM_ENG_REFERENCE_TRQ", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "newtonMeters" }, "name": "Engine reference torque"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
+  "signals": [
+    {"id": "CX30_EGR_VLV_POS_DES",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation a valve position, desired"},
+    {"id": "CX30_EGR_VLV_POS",       "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation a valve position"},
+    {"id": "CX30_EGR_ERROR",         "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Exhaust gas recirculation a error"},
+    {"id": "CX30_EGR_B_VLV_POS_DES", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation b valve position, desired"},
+    {"id": "CX30_EGR_B_VLV_POS",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation b valve position"},
+    {"id": "CX30_EGR_B_ERROR",       "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Exhaust gas recirculation b error"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F46F"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_TURBOCHARGER_COMP_P",   "path": "Battery", "fmt": {"bix": 8,  "len": 8, "max": 2040, "mul": 8, "unit": "kilopascal" }, "name": "Turbocharger a compressor inlet pressure"},
+    {"id": "CX30_TURBOCHARGER_B_COMP_P", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 2040, "mul": 8, "unit": "kilopascal" }, "name": "Turbocharger b compressor inlet pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F470"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_INT_MAP_DES", "path": "Engine", "fmt": {"bix": 8,  "len": 16, "max": 2047, "div": 32, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure, desired"},
+    {"id": "CX30_INT_MAP",     "path": "Engine", "fmt": {"bix": 24, "len": 16, "max": 2047, "div": 32, "unit": "kilopascal" }, "name": "Intake manifold absolute pressure"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F477"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_CHG_AIR_COOLER_T", "path": "Battery", "fmt": {"bix": 16, "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Charge air cooler temperature"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F4A6"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_PCM_VEH_ODO", "path": "Trips", "fmt": { "len": 32, "max": 429496729.5, "div": 10, "unit": "kilometers" }, "name": "Vehicle odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "FD18"}, "freq": 1,
+  "signals": [
+    {"id": "CX30_AC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 3100, "mul": 12.156863, "unit": "kilopascal" }, "name": "Air conditioning pressure"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "11B3"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TRANS_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 127.5, "div": 2, "unit": "scalar" }, "name": "Transmission gear"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "11BD"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TRANS_T_VAR_6", "path": "Transmission", "fmt": { "len": 16, "max": 7404.6875, "mul": 9, "div": 80, "add": 32, "unit": "fahrenheit" }, "name": "Transmission temperature, variant 6"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "163A"}, "freq": 0.25,
+  "signals": [
+    {"id": "CX30_TQ_INTO_TQ_CONV_VAR_2", "path": "Transmission", "fmt": { "len": 8, "max": 69.1467, "mul": 0.2711635897, "unit": "newtonMeters" }, "name": "Torque into torque converter, variant 2"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1674"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ATF_T_VAR_2", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "fahrenheit" }, "name": "Transmission fluid temperature, variant 2"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "17B3"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_TRANS_T_V5", "path": "Transmission", "fmt": { "len": 8, "max": 371.4, "min": -57, "mul": 42, "div": 25, "add": -57, "unit": "fahrenheit" }, "name": "Transmission temperature v5"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E12"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_GEAR_7E1", "path": "Transmission", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Gear"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
+  "signals": [
+    {"id": "CX30_TRANS_T", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -40, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_TQ_CONV_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque converter lock-up"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "dbg": true, "cmd": {"22": "1E3F"}, "freq": 5,
+  "signals": [
+    {"id": "CX30_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, desired"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2022, 2023, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
+  ]},
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2022, 2024], "from": 2026 },
+  "signals": [
+    {"id": "CX30_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "unit": "kilometers" }, "name": "Transmission odometer", "suggestedMetric": "odometer"}
+  ]},
+{ "hdr": "7E6", "rax": "7EE", "fcm1": true, "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2022, "from": 2024 },
+  "signals": [
+    {"id": "CX30_TT", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -300, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission temperature"}
+  ]}
 ]
 }
