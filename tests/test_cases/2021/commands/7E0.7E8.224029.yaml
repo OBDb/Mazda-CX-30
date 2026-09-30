@@ -16,5 +16,8 @@ test_cases:
     MAZDA_BAT_FLUID_T: 38
   response: 7E8046240294E
 - expected_values:
+    MAZDA_BAT_FLUID_T: 41
+  response: '7E80462402951'
+- expected_values:
     MAZDA_BAT_FLUID_T: 42
   response: '7E80462402952'
