@@ -14,3 +14,6 @@ test_cases:
 - expected_values:
     MAZDA_TRANS_ODO: 42752
   response: 7E90662DD0100A700
+- expected_values:
+    MAZDA_TRANS_ODO: 43009
+  response: 7E90662DD0100A801
