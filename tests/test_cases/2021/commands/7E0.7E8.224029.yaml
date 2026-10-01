@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.224029
 test_cases:
 - expected_values:
-    CX30_BAT_FLUID_T: 25
+    MAZDA_BAT_FLUID_T: 25
   response: '7E80462402941'
 - expected_values:
-    CX30_BAT_FLUID_T: 42
-  response: '7E80462402952'
+    MAZDA_BAT_FLUID_T: 44
+  response: '7E80462402954'
