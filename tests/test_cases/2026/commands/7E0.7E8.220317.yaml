@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.220317
 test_cases:
 - expected_values:
-    MAZDA_VCT_EXH_DUTY: 0
+    CX30_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
 - expected_values:
-    MAZDA_VCT_EXH_DUTY: 42.18445
+    CX30_VCT_EXH_DUTY: 42.18445
   response: 7E80562031735FF
 - expected_values:
-    MAZDA_VCT_EXH_DUTY: 51.23596
+    CX30_VCT_EXH_DUTY: 51.23596
   response: '7E8056203174195'

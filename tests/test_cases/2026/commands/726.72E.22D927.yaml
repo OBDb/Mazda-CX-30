@@ -1,10 +1,8 @@
 command_id: 726.72E.22D927
 test_cases:
 - expected_values:
-    MAZDA_TT_FR_ND: 22
-    MAZDA_TT_FR_V3: 22
+    CX30_TT_FR: 22
   response: 72E0462D92748
 - expected_values:
-    MAZDA_TT_FR_ND: 46
-    MAZDA_TT_FR_V3: 46
+    CX30_TT_FR: 46
   response: 72E0462D92760

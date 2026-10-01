@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.22035F
 test_cases:
 - expected_values:
-    MAZDA_RO2_V: 0.07617
-    MAZDA_[ECU] Rear O2 V: 0.07617
+    CX30_RO2_V: 0.07617
   response: 7E80562035F004E
 - expected_values:
-    MAZDA_RO2_V: 0.74609
-    MAZDA_[ECU] Rear O2 V: 0.74609
+    CX30_RO2_V: 0.74609
   response: 7E80562035F02FC
 - expected_values:
-    MAZDA_RO2_V: 0.75
-    MAZDA_[ECU] Rear O2 V: 0.75
+    CX30_RO2_V: 0.75
   response: 7E80562035F0300

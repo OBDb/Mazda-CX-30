@@ -1,18 +1,14 @@
 command_id: 7E0.7E8.2216E8
 test_cases:
 - expected_values:
-    MAZDA_CMD_GEN_DUTY: 25.39874
-    MAZDA_GEN_FC: 25.39712
+    CX30_GEN_FC: 25.39712
   response: 7E8056216E82082
 - expected_values:
-    MAZDA_CMD_GEN_DUTY: 64.82753
-    MAZDA_GEN_FC: 64.82338
+    CX30_GEN_FC: 64.82338
   response: 7E8056216E852F9
 - expected_values:
-    MAZDA_CMD_GEN_DUTY: 65.63021
-    MAZDA_GEN_FC: 65.626
+    CX30_GEN_FC: 65.626
   response: 7E8056216E85400
 - expected_values:
-    MAZDA_CMD_GEN_DUTY: 95.66494
-    MAZDA_GEN_FC: 95.65881
+    CX30_GEN_FC: 95.65881
   response: 7E8056216E87A71

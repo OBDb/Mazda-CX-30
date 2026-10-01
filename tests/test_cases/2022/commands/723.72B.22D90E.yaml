@@ -1,8 +1,8 @@
 command_id: 723.72B.22D90E
 test_cases:
 - expected_values:
-    MAZDA_12V_VOLTAGE: 13.43
+    CX30_12V_VOLTAGE: 13.43
   response: 72B0562D90E053F
 - expected_values:
-    MAZDA_12V_VOLTAGE: 13.96
+    CX30_12V_VOLTAGE: 13.96
   response: 72B0562D90E0574

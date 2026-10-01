@@ -1,17 +1,17 @@
 command_id: 7E0.7E8.22F4A6
 test_cases:
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 14894.7
+    CX30_PCM_VEH_ODO: 14894.7
   response: 7E80762F4A6000245D3
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 38092.8
+    CX30_PCM_VEH_ODO: 38092.8
   response: 7E80762F4A60005D000
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 38220.7
+    CX30_PCM_VEH_ODO: 38220.7
   response: 7E80762F4A60005D4FF
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 39296
+    CX30_PCM_VEH_ODO: 39296
   response: 7E80762F4A60005FF00
 - expected_values:
-    MAZDA_PCM_VEH_ODO: 39321.6
+    CX30_PCM_VEH_ODO: 39321.6
   response: 7E80762F4A600060000

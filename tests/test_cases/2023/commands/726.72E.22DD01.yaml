@@ -1,14 +1,14 @@
 command_id: 726.72E.22DD01
 test_cases:
 - expected_values:
-    MAZDA_ODO_726: 14895
+    CX30_ODO_726: 14895
   response: 72E0662DD01003A2F
 - expected_values:
-    MAZDA_ODO_726: 38143
+    CX30_ODO_726: 38143
   response: 72E0662DD010094FF
 - expected_values:
-    MAZDA_ODO_726: 38144
+    CX30_ODO_726: 38144
   response: 72E0662DD01009500
 - expected_values:
-    MAZDA_ODO_726: 39936
+    CX30_ODO_726: 39936
   response: 72E0662DD01009C00

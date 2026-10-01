@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F411
 test_cases:
 - expected_values:
-    MAZDA_INT_SHUTTER_VLV_POS: 10.58824
+    CX30_INT_SHUTTER_VLV_POS: 10.58824
   response: 7E80462F4111B
 - expected_values:
-    MAZDA_INT_SHUTTER_VLV_POS: 62.7451
+    CX30_INT_SHUTTER_VLV_POS: 62.7451
   response: 7E80462F411A0

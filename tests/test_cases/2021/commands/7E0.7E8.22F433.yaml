@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22F433
 test_cases:
 - expected_values:
-    MAZDA_BAROMETRIC_P: 86
+    CX30_BAROMETRIC_P_7E0: 86
   response: 7E80462F43356
 - expected_values:
-    MAZDA_BAROMETRIC_P: 87
+    CX30_BAROMETRIC_P_7E0: 87
   response: 7E80462F43357

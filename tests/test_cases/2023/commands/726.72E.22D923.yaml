@@ -1,8 +1,8 @@
 command_id: 726.72E.22D923
 test_cases:
 - expected_values:
-    MAZDA_TP_FR_V3: 19.2
+    CX30_TP_FR: 19.2
   response: 72E0462D92360
 - expected_values:
-    MAZDA_TP_FR_V3: 51
-  response: 72E0462D923FF
+    CX30_TP_FR: 40.6
+  response: 72E0462D923CB

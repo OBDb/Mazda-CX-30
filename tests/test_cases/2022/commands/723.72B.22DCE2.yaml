@@ -1,5 +1,5 @@
 command_id: 723.72B.22DCE2
 test_cases:
 - expected_values:
-    MAZDA_12V_SOC: 100
+    CX30_12V_SOC_723: 100
   response: 72B0462DCE2FF

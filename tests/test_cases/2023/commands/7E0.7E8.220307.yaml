@@ -1,18 +1,14 @@
 command_id: 7E0.7E8.220307
 test_cases:
 - expected_values:
-    MAZDA_FP_LD: 33.35571
-    MAZDA_LPFP_DUTY: 33.35571
+    CX30_FP_LD: 33.35571
   response: 7E8056203072AB2
 - expected_values:
-    MAZDA_FP_LD: 33.5907
-    MAZDA_LPFP_DUTY: 33.5907
+    CX30_FP_LD: 33.5907
   response: 7E8056203072AFF
 - expected_values:
-    MAZDA_FP_LD: 35.9375
-    MAZDA_LPFP_DUTY: 35.9375
+    CX30_FP_LD: 35.9375
   response: 7E8056203072E00
 - expected_values:
-    MAZDA_FP_LD: 95.00122
-    MAZDA_LPFP_DUTY: 95.00122
+    CX30_FP_LD: 95.00122
   response: 7E805620307799A

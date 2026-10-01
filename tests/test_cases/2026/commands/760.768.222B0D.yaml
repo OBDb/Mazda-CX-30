@@ -1,26 +1,26 @@
 command_id: 760.768.222B0D
 test_cases:
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 0
   response: 76805622B0D0000
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 14
   response: 76805622B0D000E
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 18
   response: 76805622B0D0012
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 31
   response: 76805622B0D001F
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 39
   response: 76805622B0D0027
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 54
   response: 76805622B0D0036
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 59
   response: 76805622B0D003B
 - expected_values:
-    MAZDA_BRK_FL_P: 0
+    CX30_BRK_FL_P: 86
   response: 76805622B0D0056

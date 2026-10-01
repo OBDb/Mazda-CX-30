@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.220304
 test_cases:
 - expected_values:
-    MAZDA_CMD_GEN_V: 13.60154
+    CX30_CMD_GEN_V: 13.60154
   response: 7E8056203046CE0
 - expected_values:
-    MAZDA_CMD_GEN_V: 13.61666
+    CX30_CMD_GEN_V: 13.61666
   response: 7E8056203046CFF
 - expected_values:
-    MAZDA_CMD_GEN_V: 13.61715
+    CX30_CMD_GEN_V: 13.61715
   response: 7E8056203046D00
 - expected_values:
-    MAZDA_CMD_GEN_V: 14.00999
+    CX30_CMD_GEN_V: 14.00999
   response: '7E8056203047025'

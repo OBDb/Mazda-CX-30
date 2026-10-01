@@ -1,14 +1,14 @@
 command_id: 7E0.7E8.22DA01
 test_cases:
 - expected_values:
-    MAZDA_OIL_P_SOLENOID_VLV: 1
+    CX30_OIL_P_SOLENOID_VLV: 1
   response: 7E80462DA0102
 - expected_values:
-    MAZDA_OIL_P_SOLENOID_VLV: 0
+    CX30_OIL_P_SOLENOID_VLV: 0
   response: 7E80462DA0140
 - expected_values:
-    MAZDA_OIL_P_SOLENOID_VLV: 1
+    CX30_OIL_P_SOLENOID_VLV: 1
   response: 7E80462DA0142
 - expected_values:
-    MAZDA_OIL_P_SOLENOID_VLV: 0
+    CX30_OIL_P_SOLENOID_VLV: 0
   response: 7E80462DA0160

@@ -1,11 +1,11 @@
 command_id: 7E0.7E8.22F45E
 test_cases:
 - expected_values:
-    MAZDA_ENG_FUEL_RATE: 0
+    CX30_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
-    MAZDA_ENG_FUEL_RATE: 12.45
+    CX30_ENG_FUEL_RATE: 12.45
   response: 7E80562F45E00F9
 - expected_values:
-    MAZDA_ENG_FUEL_RATE: 26.65
+    CX30_ENG_FUEL_RATE: 26.65
   response: 7E80562F45E0215

@@ -1,11 +1,11 @@
 command_id: 7E1.7E9.221EC7
 test_cases:
 - expected_values:
-    MAZDA_TQ_DES: 0
+    CX30_TQ_DES: 0
   response: 7E905621EC70000
 - expected_values:
-    MAZDA_TQ_DES: 87
+    CX30_TQ_DES: 87
   response: 7E905621EC710FE
 - expected_values:
-    MAZDA_TQ_DES: -5
+    CX30_TQ_DES: -5
   response: 7E905621EC7FF06
