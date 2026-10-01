@@ -4,5 +4,5 @@ test_cases:
     CX30_BRK_FL_P: 0
   response: 76805622B0D0000
 - expected_values:
-    CX30_BRK_FL_P: 212
-  response: 76805622B0D00D4
+    CX30_BRK_FL_P: null
+  response: 76805622B0DFFFF
