@@ -6,3 +6,6 @@ test_cases:
 - expected_values:
     CX30_BRK_FL_P: 65534
   response: 76805622B0DFFFE
+- expected_values:
+    CX30_BRK_FL_P: null
+  response: 76805622B0DFFFF
