@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CX30_OIL_P_SOLENOID_VLV: 1
   response: 7E80462DA0142
+- expected_values:
+    CX30_OIL_P_SOLENOID_VLV: 0
+  response: 7E80462DA0160
