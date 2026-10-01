@@ -1,19 +1,19 @@
 command_id: 7E1.7E9.22DD01
 test_cases:
 - expected_values:
-    MAZDA_TRANS_ODO: 0
+    CX30_TRANS_ODO: 0
   response: |-
     7E80662DD01003A61
     7E90662DD01000000
 - expected_values:
-    MAZDA_TRANS_ODO: 42673
+    CX30_TRANS_ODO: 42673
   response: 7E90662DD0100A6B1
 - expected_values:
-    MAZDA_TRANS_ODO: 42751
+    CX30_TRANS_ODO: 42751
   response: 7E90662DD0100A6FF
 - expected_values:
-    MAZDA_TRANS_ODO: 42752
+    CX30_TRANS_ODO: 42752
   response: 7E90662DD0100A700
 - expected_values:
-    MAZDA_TRANS_ODO: 43009
+    CX30_TRANS_ODO: 43009
   response: 7E90662DD0100A801

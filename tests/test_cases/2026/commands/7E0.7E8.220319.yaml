@@ -1,14 +1,11 @@
 command_id: 7E0.7E8.220319
 test_cases:
 - expected_values:
-    MAZDA_VCT_EXH_ACT: 0
-    MAZDA_[ECU] VCT exhaust actual: 0
+    CX30_VCT_EXH_ACT: 0
   response: '7E8056203190000'
 - expected_values:
-    MAZDA_VCT_EXH_ACT: 15.8125
-    MAZDA_[ECU] VCT exhaust actual: 15.8125
+    CX30_VCT_EXH_ACT: 15.8125
   response: 7E80562031900FD
 - expected_values:
-    MAZDA_VCT_EXH_ACT: 50
-    MAZDA_[ECU] VCT exhaust actual: 50
+    CX30_VCT_EXH_ACT: 50
   response: '7E8056203190346'

@@ -1,8 +1,8 @@
 command_id: 723.72B.22F40D
 test_cases:
 - expected_values:
-    MAZDA_VEHICLE_SPEED: 0
+    CX30_VEHICLE_SPEED: 0
   response: 72B0462F40D00
 - expected_values:
-    MAZDA_VEHICLE_SPEED: 115
+    CX30_VEHICLE_SPEED: 115
   response: 72B0462F40D73
