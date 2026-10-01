@@ -4,5 +4,5 @@ test_cases:
     CX30_BAT_FLUID_T: 25
   response: '7E80462402941'
 - expected_values:
-    CX30_BAT_FLUID_T: 44
-  response: '7E80462402954'
+    CX30_BAT_FLUID_T: 51
+  response: 7E8046240295B
