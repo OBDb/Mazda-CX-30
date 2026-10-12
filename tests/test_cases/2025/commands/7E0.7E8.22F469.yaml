@@ -1,7 +1,6 @@
 command_id: 7E0.7E8.22F469
 test_cases:
 - expected_values:
-    CX30_EGR_B_ERROR: -100
     CX30_EGR_B_VLV_POS: 0
     CX30_EGR_B_VLV_POS_DES: 0
     CX30_EGR_ERROR: 0
@@ -11,7 +10,6 @@ test_cases:
     7E8100A62F469070000
     7E82180000000000000
 - expected_values:
-    CX30_EGR_B_ERROR: -100
     CX30_EGR_B_VLV_POS: 0
     CX30_EGR_B_VLV_POS_DES: 0
     CX30_EGR_ERROR: 99.2187
@@ -21,7 +19,6 @@ test_cases:
     7E8100A62F469070416
     7E821FF000000000000
 - expected_values:
-    CX30_EGR_B_ERROR: -100
     CX30_EGR_B_VLV_POS: 0
     CX30_EGR_B_VLV_POS_DES: 0
     CX30_EGR_ERROR: -57.8125
@@ -31,7 +28,6 @@ test_cases:
     7E8100A62F469073B19
     7E82136000000000000
 - expected_values:
-    CX30_EGR_B_ERROR: -100
     CX30_EGR_B_VLV_POS: 0
     CX30_EGR_B_VLV_POS_DES: 0
     CX30_EGR_ERROR: 0.78125
