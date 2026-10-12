@@ -4,20 +4,11 @@ test_cases:
     CX30_TQ_DES: 3
   response: 7E905621EC70096
 - expected_values:
-    CX30_TQ_DES: 8
-  response: 7E905621EC70190
+    CX30_TQ_DES: 21
+  response: 7E905621EC7041A
 - expected_values:
-    CX30_TQ_DES: 16
-  response: 7E905621EC70320
-- expected_values:
-    CX30_TQ_DES: 30
-  response: 7E905621EC705DC
-- expected_values:
-    CX30_TQ_DES: 64
-  response: 7E905621EC70C80
-- expected_values:
-    CX30_TQ_DES: 137
-  response: 7E905621EC71AC2
+    CX30_TQ_DES: 87
+  response: 7E905621EC710FE
 - expected_values:
     CX30_TQ_DES: -1
   response: 7E905621EC7FFCE

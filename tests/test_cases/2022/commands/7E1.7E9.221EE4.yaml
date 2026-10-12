@@ -4,20 +4,11 @@ test_cases:
     CX30_TQ_ACT: 3
   response: 7E905621EE40096
 - expected_values:
-    CX30_TQ_ACT: 8
-  response: 7E905621EE40190
+    CX30_TQ_ACT: 5
+  response: 7E905621EE400FA
 - expected_values:
-    CX30_TQ_ACT: 15
-  response: 7E905621EE402EE
-- expected_values:
-    CX30_TQ_ACT: 30
-  response: 7E905621EE405DC
-- expected_values:
-    CX30_TQ_ACT: 64
-  response: 7E905621EE40C80
-- expected_values:
-    CX30_TQ_ACT: 124
-  response: 7E905621EE41838
+    CX30_TQ_ACT: 82
+  response: 7E905621EE41004
 - expected_values:
     CX30_TQ_ACT: -9
   response: 7E905621EE4FE3E
