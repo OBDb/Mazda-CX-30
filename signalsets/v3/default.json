@@ -1020,12 +1020,12 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F469"}, "freq": 1, "dbgfilter": { "to": 2024, "from": 2026 },
   "signals": [
-    {"id": "CX30_EGR_VLV_POS_DES",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation a valve position, desired"},
-    {"id": "CX30_EGR_VLV_POS",       "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation a valve position"},
-    {"id": "CX30_EGR_ERROR",         "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Exhaust gas recirculation a error"},
-    {"id": "CX30_EGR_B_VLV_POS_DES", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation b valve position, desired"},
-    {"id": "CX30_EGR_B_VLV_POS",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                  "mul": 20, "div": 51,              "unit": "percent" }, "name": "Exhaust gas recirculation b valve position"},
-    {"id": "CX30_EGR_B_ERROR",       "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "unit": "percent" }, "name": "Exhaust gas recirculation b error"}
+    {"id": "CX30_EGR_VLV_POS_DES",   "path": "Engine", "fmt": {"bix": 8,  "len": 8, "max": 100,                  "mul": 20, "div": 51,                               "unit": "percent" }, "name": "Exhaust gas recirculation a valve position, desired"},
+    {"id": "CX30_EGR_VLV_POS",       "path": "Engine", "fmt": {"bix": 16, "len": 8, "max": 100,                  "mul": 20, "div": 51,                               "unit": "percent" }, "name": "Exhaust gas recirculation a valve position"},
+    {"id": "CX30_EGR_ERROR",         "path": "Engine", "fmt": {"bix": 24, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100,                  "unit": "percent" }, "name": "Exhaust gas recirculation a error"},
+    {"id": "CX30_EGR_B_VLV_POS_DES", "path": "Engine", "fmt": {"bix": 32, "len": 8, "max": 100,                  "mul": 20, "div": 51,                               "unit": "percent" }, "name": "Exhaust gas recirculation b valve position, desired"},
+    {"id": "CX30_EGR_B_VLV_POS",     "path": "Engine", "fmt": {"bix": 40, "len": 8, "max": 100,                  "mul": 20, "div": 51,                               "unit": "percent" }, "name": "Exhaust gas recirculation b valve position"},
+    {"id": "CX30_EGR_B_ERROR",       "path": "Engine", "fmt": {"bix": 48, "len": 8, "max": 99.2187, "min": -100, "mul": 25, "div": 32, "add": -100, "nullmin": -100, "unit": "percent" }, "name": "Exhaust gas recirculation b error"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "F46F"}, "freq": 1,
   "signals": [
