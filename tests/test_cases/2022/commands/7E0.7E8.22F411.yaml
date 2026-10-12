@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.22F411
+test_cases:
+- expected_values:
+    CX30_INT_SHUTTER_VLV_POS: 13.33333
+  response: 7E80462F41122
+- expected_values:
+    CX30_INT_SHUTTER_VLV_POS: 17.64706
+  response: 7E80462F4112D
+- expected_values:
+    CX30_INT_SHUTTER_VLV_POS: 18.82353
+  response: 7E80462F41130
+- expected_values:
+    CX30_INT_SHUTTER_VLV_POS: 23.52941
+  response: 7E80462F4113C
+- expected_values:
+    CX30_INT_SHUTTER_VLV_POS: 30.98039
+  response: 7E80462F4114F
