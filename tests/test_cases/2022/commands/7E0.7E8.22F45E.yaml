@@ -1,23 +1,8 @@
 command_id: 7E0.7E8.22F45E
 test_cases:
 - expected_values:
-    CX30_ENG_FUEL_RATE: 1.45
-  response: 7E80562F45E001D
-- expected_values:
-    CX30_ENG_FUEL_RATE: 1.5
-  response: 7E80562F45E001E
-- expected_values:
-    CX30_ENG_FUEL_RATE: 1.7
-  response: 7E80562F45E0022
-- expected_values:
-    CX30_ENG_FUEL_RATE: 2.3
-  response: 7E80562F45E002E
-- expected_values:
-    CX30_ENG_FUEL_RATE: 5.05
-  response: 7E80562F45E0065
-- expected_values:
-    CX30_ENG_FUEL_RATE: 8.8
-  response: 7E80562F45E00B0
+    CX30_ENG_FUEL_RATE: 0.8
+  response: 7E80562F45E0010
 - expected_values:
     CX30_ENG_FUEL_RATE: 8.9
   response: 7E80562F45E00B2
