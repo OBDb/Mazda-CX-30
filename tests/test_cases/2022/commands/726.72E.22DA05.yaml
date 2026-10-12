@@ -1,0 +1,14 @@
+command_id: 726.72E.22DA05
+test_cases:
+- expected_values:
+    CX30_BRAKE_SWITCH: 0
+  response: |-
+    72E101162DA05100021
+    72E2110020244008022
+    72E2200000000000000
+- expected_values:
+    CX30_BRAKE_SWITCH: 0
+  response: |-
+    72E101162DA05100021
+    72E2110120244008022
+    72E2200000000000000

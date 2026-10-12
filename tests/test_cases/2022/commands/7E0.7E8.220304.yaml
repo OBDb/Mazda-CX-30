@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    CX30_CMD_GEN_V: 13.94802
+  response: 7E8056203046FA6
+- expected_values:
+    CX30_CMD_GEN_V: 13.9485
+  response: 7E8056203046FA7
+- expected_values:
+    CX30_CMD_GEN_V: 13.94899
+  response: 7E8056203046FA8

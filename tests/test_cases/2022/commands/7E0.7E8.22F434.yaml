@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.32533
+  response: 7E80762F4347D3F7FE4
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.33382
+  response: 7E80762F4347D527FE5
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.50003
+  response: 7E80762F4347EC67FF6
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.51388
+  response: 7E80762F4347EE57FFC
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.57151
+  response: 7E80762F4347F667FF9
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.68723
+  response: 7E80762F43480698009
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.73146
+  response: 7E80762F43480CC8005
+- expected_values:
+    CX30_AIR_FUEL_RAT: 15.31005
+  response: 7E80762F43485DB802F
