@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.2203B9
+test_cases:
+- expected_values:
+    CX30_COOLING_FAN_DUTY: 0
+  response: 7E8056203B90000
