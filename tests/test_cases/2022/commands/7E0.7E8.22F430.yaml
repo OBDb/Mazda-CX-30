@@ -4,5 +4,5 @@ test_cases:
     CX30_WARMUP_CLR: 6
   response: 7E80462F43006
 - expected_values:
-    CX30_WARMUP_CLR: 126
-  response: 7E80462F4307E
+    CX30_WARMUP_CLR: 255
+  response: 7E80462F430FF
