@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221EE4
 test_cases:
 - expected_values:
-    CX30_TQ_ACT: 3
-  response: 7E905621EE40096
+    CX30_TQ_ACT: 1
+  response: 7E905621EE40032
 - expected_values:
     CX30_TQ_ACT: 5
   response: 7E905621EE400FA

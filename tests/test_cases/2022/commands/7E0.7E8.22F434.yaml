@@ -7,11 +7,11 @@ test_cases:
     CX30_AIR_FUEL_RAT: 14.41558
   response: 7E80762F4347E097FF1
 - expected_values:
-    CX30_AIR_FUEL_RAT: 14.51388
-  response: 7E80762F4347EE57FFC
-- expected_values:
     CX30_AIR_FUEL_RAT: 14.52058
   response: 7E80762F4347EF47FFA
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.53845
+  response: 7E80762F4347F1C7FFE
 - expected_values:
     CX30_AIR_FUEL_RAT: 14.5523
   response: 7E80762F4347F3B8000
