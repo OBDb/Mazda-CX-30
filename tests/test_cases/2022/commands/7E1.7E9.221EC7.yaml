@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221EC7
 test_cases:
 - expected_values:
-    CX30_TQ_DES: 3
-  response: 7E905621EC70096
+    CX30_TQ_DES: 1
+  response: 7E905621EC70032
 - expected_values:
     CX30_TQ_DES: 21
   response: 7E905621EC7041A
