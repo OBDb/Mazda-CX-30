@@ -1,8 +1,8 @@
 command_id: 7E0.7E8.22DD01|fc=1
 test_cases:
 - expected_values:
-    CX30_ODO: 47353
-  response: 7E80662DD0100B8F9
+    CX30_ODO: 22492
+  response: 7E80662DD010057DC
 - expected_values:
     CX30_ODO: 51967
   response: 7E80662DD0100CAFF

@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX30_BAROMETRIC_P_7E0: 101
   response: 7E80462F43365
+- expected_values:
+    CX30_BAROMETRIC_P_7E0: 102
+  response: 7E80462F43366
