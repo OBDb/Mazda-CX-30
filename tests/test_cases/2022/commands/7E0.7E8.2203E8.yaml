@@ -8,4 +8,4 @@ test_cases:
   response: 7E8056203E8E1FF
 - expected_values:
     CX30_OAR: 0
-  response: 7E8056203E8F208
+  response: 7E8056203E8F9CB
