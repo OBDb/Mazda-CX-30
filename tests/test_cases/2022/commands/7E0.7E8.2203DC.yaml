@@ -10,5 +10,5 @@ test_cases:
     CX30_HPFP_DES: 742.59323
   response: 7E8056203DC0200
 - expected_values:
-    CX30_HPFP_DES: 3500
+    CX30_HPFP_DES: 8702.26438
   response: 7E8056203DC1770

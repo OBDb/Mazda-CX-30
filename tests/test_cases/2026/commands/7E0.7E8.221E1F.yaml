@@ -19,8 +19,5 @@ test_cases:
     CX30_GEAR_ENG: 6
   response: 7E804621E1F06
 - expected_values:
-    CX30_GEAR_ENG: 6
+    CX30_GEAR_ENG: null
   response: 7E804621E1F46
-- expected_values:
-    CX30_GEAR_ENG: 6
-  response: 7E804621E1F82
