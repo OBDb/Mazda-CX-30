@@ -4,5 +4,5 @@ test_cases:
     CX30_FUEL_LEVEL: 0
   response: 728046261B100
 - expected_values:
-    CX30_FUEL_LEVEL: 55
+    CX30_FUEL_LEVEL: 100
   response: 728046261B164

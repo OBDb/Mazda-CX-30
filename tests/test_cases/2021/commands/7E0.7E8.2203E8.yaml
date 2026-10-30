@@ -7,5 +7,5 @@ test_cases:
     CX30_OAR: 0.01556
   response: 7E8056203E800FF
 - expected_values:
-    CX30_OAR: 0
+    CX30_OAR: -0.01556
   response: 7E8056203E8FF01

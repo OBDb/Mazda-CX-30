@@ -4,5 +4,8 @@ test_cases:
     CX30_TT_RL: -15
   response: 72E0462D92823
 - expected_values:
-    CX30_TT_RL: 204
+    CX30_TT_RL: 35
+  response: 72E0462D92855
+- expected_values:
+    CX30_TT_RL: null
   response: 72E0462D928FE

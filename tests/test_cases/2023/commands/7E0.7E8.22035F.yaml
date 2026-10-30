@@ -7,5 +7,5 @@ test_cases:
     CX30_RO2_V: 0.74902
   response: 7E80562035F02FF
 - expected_values:
-    CX30_RO2_V: 1
+    CX30_RO2_V: -0.11719
   response: 7E80562035FFF88

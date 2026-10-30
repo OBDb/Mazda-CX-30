@@ -10,5 +10,5 @@ test_cases:
     CX30_MAP: 1.807
   response: 7E805620301070F
 - expected_values:
-    CX30_MAP: 4
+    CX30_MAP: 4.128
   response: '7E8056203011020'
