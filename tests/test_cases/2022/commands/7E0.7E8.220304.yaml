@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.220304
 test_cases:
 - expected_values:
+    CX30_CMD_GEN_V: 13.84749
+  response: 7E8056203046ED8
+- expected_values:
     CX30_CMD_GEN_V: 13.90995
   response: 7E8056203046F58
 - expected_values:
