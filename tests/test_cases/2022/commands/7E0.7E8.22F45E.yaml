@@ -4,5 +4,8 @@ test_cases:
     CX30_ENG_FUEL_RATE: 0
   response: 7E80562F45E0000
 - expected_values:
-    CX30_ENG_FUEL_RATE: 8.9
-  response: 7E80562F45E00B2
+    CX30_ENG_FUEL_RATE: 10.85
+  response: 7E80562F45E00D9
+- expected_values:
+    CX30_ENG_FUEL_RATE: 18.8
+  response: 7E80562F45E0178
