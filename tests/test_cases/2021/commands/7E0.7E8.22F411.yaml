@@ -4,5 +4,5 @@ test_cases:
     CX30_INT_SHUTTER_VLV_POS: 10.58824
   response: 7E80462F4111B
 - expected_values:
-    CX30_INT_SHUTTER_VLV_POS: 62.7451
-  response: 7E80462F411A0
+    CX30_INT_SHUTTER_VLV_POS: 63.13725
+  response: 7E80462F411A1
