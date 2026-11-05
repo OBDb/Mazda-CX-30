@@ -5,3 +5,15 @@ test_cases:
   response: |-
     221EC7
     7E905621EC7FF06
+- expected_values:
+    CX30_TQ_DES: 2
+  response: 7E905621EC70064
+- expected_values:
+    CX30_TQ_DES: 61
+  response: 7E905621EC70BEA
+- expected_values:
+    CX30_TQ_DES: -32
+  response: 7E905621EC7F9C0
+- expected_values:
+    CX30_TQ_DES: -13
+  response: 7E905621EC7FD76

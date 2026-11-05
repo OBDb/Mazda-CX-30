@@ -6,3 +6,12 @@ test_cases:
     22DD01
     7E90662DD0100164A
     7E80662DD0100164A
+- expected_values:
+    CX30_TRANS_ODO: 5709
+  response: 7E90662DD0100164D
+- expected_values:
+    CX30_TRANS_ODO: 5710
+  response: 7E90662DD0100164E
+- expected_values:
+    CX30_TRANS_ODO: 5711
+  response: 7E90662DD0100164F

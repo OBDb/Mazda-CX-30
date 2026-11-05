@@ -5,3 +5,9 @@ test_cases:
   response: |-
     221E24
     7E904621E2400
+- expected_values:
+    CX30_TQ_CONV_LOCK_UP: 0
+  response: 7E904621E2400
+- expected_values:
+    CX30_TQ_CONV_LOCK_UP: 1
+  response: 7E904621E2401
