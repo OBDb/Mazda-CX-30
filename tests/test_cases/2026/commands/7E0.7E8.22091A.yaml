@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.22091A
 test_cases:
 - expected_values:
+    CX30_ETC_DSD_DEG: 3.33398
+  response: |-
+    22091A
+    7E80562091A06AB
+- expected_values:
     CX30_ETC_DSD_DEG: 0.27539
   response: 7E80562091A008D
 - expected_values:

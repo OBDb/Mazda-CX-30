@@ -2,6 +2,9 @@ command_id: 7E0.7E8.220316
 test_cases:
 - expected_values:
     CX30_VCT_INT_DUTY: 10.00061
+  response: '7E8 05 62 03 16 0C CD '
+- expected_values:
+    CX30_VCT_INT_DUTY: 10.00061
   response: 7E8056203160CCD
 - expected_values:
     CX30_VCT_INT_DUTY: 35.00061

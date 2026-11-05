@@ -9,3 +9,6 @@ test_cases:
 - expected_values:
     CX30_ODO_726: 4645
   response: 72E0662DD01001225
+- expected_values:
+    CX30_ODO_726: 5706
+  response: 72E0662DD0100164A

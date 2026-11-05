@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221310
 test_cases:
 - expected_values:
+    CX30_EOT: 87.19
+  response: '7E8 05 62 13 10 31 AF '
+- expected_values:
     CX30_EOT: 34.78
   response: 7E8056213101D36
 - expected_values:

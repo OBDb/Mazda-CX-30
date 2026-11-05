@@ -855,7 +855,7 @@
   "signals": [
     {"id": "CX30_PCM_CMD_TRANS_MAIN_LINE_P", "path": "Transmission", "fmt": { "len": 16, "max": 65534, "min": -65536, "mul": 2, "sign": true, "unit": "kilopascal" }, "name": "Transmission pressure, commanded"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1E1C"}, "freq": 5,
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "1E1C"}, "freq": 5, "dbgfilter": { "to": 2025, "from": 2027 },
   "signals": [
     {"id": "CX30_TOT_7E0", "path": "Engine", "fmt": { "len": 16, "max": 500, "min": -500, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission oil temperature"}
   ]},
@@ -913,7 +913,7 @@
   "signals": [
     {"id": "CX30_BAT_ACCUMULATED_AMP", "path": "Battery", "fmt": { "len": 16, "max": 227.675, "min": -100, "div": 200, "add": -100, "unit": "ampereHours" }, "name": "Battery accumulated amp hours"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DA01"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "DA01"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_OIL_P_SOLENOID_VLV", "path": "Engine", "fmt": {"bix": 6, "len": 1, "max": 1, "unit": "offon" }, "name": "Oil pressure solenoid valve, open"}
   ]},
@@ -1006,7 +1006,7 @@
   "signals": [
     {"id": "CX30_EOT_F4", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Engine oil temperature", "suggestedMetric": "engineOilTemperature"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F45E"}, "freq": 1, "dbgfilter": { "to": 2021, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_ENG_FUEL_RATE", "path": "Fuel", "fmt": { "len": 16, "max": 3276.75, "div": 20, "unit": "litersPerHour" }, "name": "Engine fuel rate", "suggestedMetric": "fuelRate"}
   ]},
@@ -1077,7 +1077,7 @@
   "signals": [
     {"id": "CX30_TRANS_T", "path": "Transmission", "fmt": { "len": 16, "max": 300, "min": -40, "div": 16, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature", "suggestedMetric": "transmissionFluidTemperature"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1E24"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_TQ_CONV_LOCK_UP", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "scalar" }, "name": "Torque converter lock-up"}
   ]},
@@ -1085,15 +1085,15 @@
   "signals": [
     {"id": "CX30_ATF_T_VAR_5", "path": "Engine", "fmt": { "len": 16, "max": 32767, "min": -32768, "sign": true, "unit": "celsius" }, "name": "Transmission fluid temperature, variant 5"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EC7"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_TQ_DES", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, desired"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "1EE4"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2026 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "years": [2024], "from": 2027 },
   "signals": [
     {"id": "CX30_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "nullmin": 0, "unit": "kilometers" }, "name": "Transmission odometer", "suggestedMetric": "odometer"}
   ]},

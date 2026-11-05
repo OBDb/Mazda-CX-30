@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F443
 test_cases:
 - expected_values:
+    CX30_ENG_LOAD_ACT: 18.82353
+  response: '7E8 05 62 F4 43 00 30 '
+- expected_values:
     CX30_ENG_LOAD_ACT: 10.58824
   response: 7E80562F443001B
 - expected_values:

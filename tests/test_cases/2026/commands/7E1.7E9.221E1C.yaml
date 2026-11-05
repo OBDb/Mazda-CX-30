@@ -1,6 +1,14 @@
 command_id: 7E1.7E9.221E1C
 test_cases:
 - expected_values:
+    CX30_TRANS_T: 83.25
+  response: |-
+    221E1C
+    7E905621E1C0534
+- expected_values:
+    CX30_TRANS_T: 83.375
+  response: '7E9 05 62 1E 1C 05 36 '
+- expected_values:
     CX30_TRANS_T: 31.125
   response: 7E905621E1C01F2
 - expected_values:

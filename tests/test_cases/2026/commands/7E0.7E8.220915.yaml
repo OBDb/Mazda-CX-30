@@ -2,6 +2,9 @@ command_id: 7E0.7E8.220915
 test_cases:
 - expected_values:
     CX30_APP2_V: 0.4
+  response: '7E8 05 62 09 15 01 90 '
+- expected_values:
+    CX30_APP2_V: 0.4
   response: '7E8056209150190'
 - expected_values:
     CX30_APP2_V: 0.513

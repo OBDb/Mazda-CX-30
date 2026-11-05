@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F407
 test_cases:
 - expected_values:
+    CX30_LTFT: 6.25
+  response: '7E8 04 62 F4 07 88 '
+- expected_values:
     CX30_LTFT: -3.125
   response: 7E80462F4077C
 - expected_values:

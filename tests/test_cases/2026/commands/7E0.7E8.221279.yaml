@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.221279
 test_cases:
 - expected_values:
+    CX30_IAT_SENS_V: 1.06061
+  response: '7E8 05 62 12 79 00 D9 '
+- expected_values:
     CX30_IAT_SENS_V: 0.95797
   response: 7E80562127900C4
 - expected_values:

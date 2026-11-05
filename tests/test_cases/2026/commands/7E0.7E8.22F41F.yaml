@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F41F
 test_cases:
 - expected_values:
+    CX30_RUN_TIME: 659
+  response: '7E8 05 62 F4 1F 02 93 '
+- expected_values:
     CX30_RUN_TIME: 45
   response: 7E80562F41F002D
 - expected_values:

@@ -2,6 +2,9 @@ command_id: 760.768.222B07
 test_cases:
 - expected_values:
     CX30_FL_VSS: 0
+  response: '768 04 62 2B 07 00 '
+- expected_values:
+    CX30_FL_VSS: 0
   response: 76804622B0700
 - expected_values:
     CX30_FL_VSS: 102

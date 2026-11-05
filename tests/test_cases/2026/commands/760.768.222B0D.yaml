@@ -2,6 +2,9 @@ command_id: 760.768.222B0D
 test_cases:
 - expected_values:
     CX30_BRK_FL_P: 0
+  response: '768 05 62 2B 0D 00 00 '
+- expected_values:
+    CX30_BRK_FL_P: 0
   response: 76805622B0D0000
 - expected_values:
     CX30_BRK_FL_P: 14

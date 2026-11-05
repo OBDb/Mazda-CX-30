@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203BA
 test_cases:
 - expected_values:
+    CX30_AAT_V: 2.13587
+  response: '7E8 05 62 03 BA 01 B5 '
+- expected_values:
     CX30_AAT_V: 0.8651
   response: 7E8056203BA00B1
 - expected_values:

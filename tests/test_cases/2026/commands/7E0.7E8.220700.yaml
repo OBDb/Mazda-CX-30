@@ -2,4 +2,7 @@ command_id: 7E0.7E8.220700
 test_cases:
 - expected_values:
     CX30_IAT_FAULT: 0
+  response: '7E8 07 62 07 00 00 80 00 00 '
+- expected_values:
+    CX30_IAT_FAULT: 0
   response: '7E80762070000800000'
