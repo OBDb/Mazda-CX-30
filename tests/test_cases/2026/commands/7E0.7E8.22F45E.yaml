@@ -5,3 +5,27 @@ test_cases:
   response: |-
     22F45E
     7E80562F45E0017
+- expected_values:
+    CX30_ENG_FUEL_RATE: 0
+  response: 7E80562F45E0000
+- expected_values:
+    CX30_ENG_FUEL_RATE: 0.45
+  response: 7E80562F45E0009
+- expected_values:
+    CX30_ENG_FUEL_RATE: 1.15
+  response: 7E80562F45E0017
+- expected_values:
+    CX30_ENG_FUEL_RATE: 1.2
+  response: 7E80562F45E0018
+- expected_values:
+    CX30_ENG_FUEL_RATE: 1.35
+  response: 7E80562F45E001B
+- expected_values:
+    CX30_ENG_FUEL_RATE: 3.8
+  response: 7E80562F45E004C
+- expected_values:
+    CX30_ENG_FUEL_RATE: 7.8
+  response: 7E80562F45E009C
+- expected_values:
+    CX30_ENG_FUEL_RATE: 10.9
+  response: 7E80562F45E00DA

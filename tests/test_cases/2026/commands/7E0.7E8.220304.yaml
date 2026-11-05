@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.220304
+test_cases:
+- expected_values:
+    CX30_CMD_GEN_V: 13.75721
+  response: 7E8056203046E1F
+- expected_values:
+    CX30_CMD_GEN_V: 13.7577
+  response: 7E8056203046E20
+- expected_values:
+    CX30_CMD_GEN_V: 13.75818
+  response: 7E8056203046E21
+- expected_values:
+    CX30_CMD_GEN_V: 13.75867
+  response: 7E8056203046E22
+- expected_values:
+    CX30_CMD_GEN_V: 13.75916
+  response: 7E8056203046E23
+- expected_values:
+    CX30_CMD_GEN_V: 13.76014
+  response: 7E8056203046E25
+- expected_values:
+    CX30_CMD_GEN_V: 13.76062
+  response: 7E8056203046E26
+- expected_values:
+    CX30_CMD_GEN_V: 13.7616
+  response: 7E8056203046E28

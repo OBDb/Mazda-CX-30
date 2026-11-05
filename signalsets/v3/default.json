@@ -79,7 +79,7 @@
   "signals": [
     {"id": "CX30_TT_RR", "path": "Tires", "fmt": { "len": 8, "max": 205, "min": -50, "add": -50, "nullmax": 204, "unit": "celsius" }, "name": "Rear right temperature", "suggestedMetric": "rearRightTireTemperature"}
   ]},
-{ "hdr": "726", "rax": "72E", "cmd": {"22": "DA05"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "726", "rax": "72E", "cmd": {"22": "DA05"}, "freq": 0.25, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_BRAKE_SWITCH", "path": "Control", "fmt": { "len": 1, "max": 1, "unit": "offon" }, "name": "Brake switch"}
   ]},
@@ -146,7 +146,7 @@
   "signals": [
     {"id": "CX30_MAP", "path": "Engine", "fmt": { "len": 16, "max": 5, "div": 1000, "unit": "volts" }, "name": "Manifold absolute pressure sensor voltage", "description": "A properly functioning sensor should read around 1 to 1.5 volts at idle."}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0304"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_CMD_GEN_V", "path": "Battery", "fmt": { "len": 16, "max": 16, "mul": 0.000488, "unit": "volts" }, "name": "Commanded generator voltage"}
   ]},
@@ -230,7 +230,7 @@
   "signals": [
     {"id": "CX30_MAP_HIRES", "path": "Engine", "fmt": { "len": 16, "max": 16383.75, "div": 4, "unit": "kilopascal" }, "name": "Manifold absolute pressure, high resolution"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "0378"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_GEN_CTRL", "path": "Engine", "fmt": { "len": 16, "max": 100, "mul": 0.003052, "unit": "percent" }, "name": "Generator control"}
   ]},
@@ -402,7 +402,7 @@
   "signals": [
     {"id": "CX30_FUEL_T", "path": "Fuel", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Fuel temp"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "053B"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_CATDMG_MIS_1",           "path": "Engine", "fmt": {            "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 1"},
     {"id": "CX30_CATDMG_MIS_2",           "path": "Engine", "fmt": {"bix": 8,   "len": 8,  "max": 255,   "unit": "scalar" }, "name": "Catalyst damaging misfires, cylinder 2"},
@@ -958,7 +958,7 @@
   "signals": [
     {"id": "CX30_IAT_ALT2", "path": "Engine", "fmt": { "len": 8, "max": 215, "min": -40, "add": -40, "unit": "celsius" }, "name": "Intake temperature, alternate"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F411"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_INT_SHUTTER_VLV_POS", "path": "Engine", "fmt": { "len": 8, "max": 100, "mul": 20, "div": 51, "unit": "percent" }, "name": "Throttle position", "suggestedMetric": "throttlePosition"}
   ]},
@@ -986,11 +986,11 @@
   "signals": [
     {"id": "CX30_DIST_DTC_CLR", "path": "Engine", "fmt": { "len": 16, "max": 65535, "unit": "kilometers" }, "name": "Distance since DTC clear"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F433"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_BAROMETRIC_P_7E0", "path": "Engine", "fmt": { "len": 8, "max": 255, "unit": "kilopascal" }, "name": "Barometric pressure"}
   ]},
-{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2026 },
+{ "hdr": "7E0", "rax": "7E8", "cmd": {"22": "F434"}, "freq": 1, "dbgfilter": { "to": 2020, "years": [2023, 2024], "from": 2027 },
   "signals": [
     {"id": "CX30_AIR_FUEL_RAT", "path": "Fuel", "fmt": { "len": 16, "max": 29.2801, "mul": 0.000446787, "unit": "scalar" }, "name": "Air/fuel ratio"}
   ]},

@@ -5,3 +5,18 @@ test_cases:
   response: |-
     221EE4
     7E905621EE4FF06
+- expected_values:
+    CX30_TQ_ACT: 2
+  response: 7E905621EE40064
+- expected_values:
+    CX30_TQ_ACT: 3
+  response: 7E905621EE40096
+- expected_values:
+    CX30_TQ_ACT: 57
+  response: 7E905621EE40B22
+- expected_values:
+    CX30_TQ_ACT: -32
+  response: 7E905621EE4F9C0
+- expected_values:
+    CX30_TQ_ACT: -13
+  response: 7E905621EE4FD76
