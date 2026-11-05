@@ -1,6 +1,14 @@
 command_id: 7E0.7E8.22F42F
 test_cases:
 - expected_values:
+    CX30_FLI: 90.98039
+  response: |-
+    22F42F
+    7E80462F42FE8
+- expected_values:
+    CX30_FLI: 90.98039
+  response: '7E8 04 62 F4 2F E8 '
+- expected_values:
     CX30_FLI: 56.07843
   response: 7E80462F42F8F
 - expected_values:

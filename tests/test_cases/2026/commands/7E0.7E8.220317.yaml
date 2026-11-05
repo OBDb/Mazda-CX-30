@@ -2,6 +2,9 @@ command_id: 7E0.7E8.220317
 test_cases:
 - expected_values:
     CX30_VCT_EXH_DUTY: 0
+  response: '7E8 05 62 03 17 00 00 '
+- expected_values:
+    CX30_VCT_EXH_DUTY: 0
   response: '7E8056203170000'
 - expected_values:
     CX30_VCT_EXH_DUTY: 42.18445

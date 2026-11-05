@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.2203BD
 test_cases:
 - expected_values:
+    CX30_CL_LC: 0.20496
+  response: '7E8 05 62 03 BD 06 8F '
+- expected_values:
     CX30_CL_LC: 0.12756
   response: 7E8056203BD0415
 - expected_values:

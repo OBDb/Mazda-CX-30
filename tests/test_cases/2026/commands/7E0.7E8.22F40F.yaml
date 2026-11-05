@@ -1,6 +1,9 @@
 command_id: 7E0.7E8.22F40F
 test_cases:
 - expected_values:
+    CX30_IAT_ALT2: 37
+  response: '7E8 04 62 F4 0F 4D '
+- expected_values:
     CX30_IAT_ALT2: 24
   response: 7E80462F40F40
 - expected_values:

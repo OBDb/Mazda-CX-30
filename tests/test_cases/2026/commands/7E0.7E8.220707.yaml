@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.220707
 test_cases:
 - expected_values:
+    CX30_GRILL_SHUT_DC: 100
+  response: |-
+    220707
+    7E804620707FF
+- expected_values:
     CX30_GRILL_SHUT_DC: 6.66667
   response: '7E80462070711'
 - expected_values:

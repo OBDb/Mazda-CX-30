@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.221E1F
 test_cases:
 - expected_values:
+    CX30_GEAR_ENG: null
+  response: |-
+    221E1F
+    7E804621E1F46
+- expected_values:
     CX30_GEAR_ENG: 1
   response: 7E804621E1F01
 - expected_values:
@@ -18,6 +23,3 @@ test_cases:
 - expected_values:
     CX30_GEAR_ENG: 6
   response: 7E804621E1F06
-- expected_values:
-    CX30_GEAR_ENG: null
-  response: 7E804621E1F46

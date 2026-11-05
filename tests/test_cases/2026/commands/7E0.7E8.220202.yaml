@@ -2,4 +2,10 @@ command_id: 7E0.7E8.220202
 test_cases:
 - expected_values:
     CX30_DTC_CNTD: 0
+  response: |-
+    220202
+    7E80462020200
+    7E90462020200
+- expected_values:
+    CX30_DTC_CNTD: 0
   response: '7E80462020200'

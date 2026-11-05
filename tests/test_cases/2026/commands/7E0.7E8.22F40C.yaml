@@ -1,6 +1,12 @@
 command_id: 7E0.7E8.22F40C
 test_cases:
 - expected_values:
+    CX30_RPM: 756.5
+  response: |-
+    22F40C
+    7E90562F40C0BD0
+    7E80562F40C0BD2
+- expected_values:
     CX30_RPM: 744.5
   response: 7E80562F40C0BA2
 - expected_values:

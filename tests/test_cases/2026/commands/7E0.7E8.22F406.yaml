@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.22F406
 test_cases:
 - expected_values:
+    CX30_STFT: -2.34375
+  response: |-
+    22F406
+    7E80462F4067D
+- expected_values:
     CX30_STFT: -5.46875
   response: 7E80462F40679
 - expected_values:

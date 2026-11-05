@@ -1,0 +1,8 @@
+command_id: 7E1.7E9.22DD01
+test_cases:
+- expected_values:
+    CX30_TRANS_ODO: 5706
+  response: |-
+    22DD01
+    7E90662DD0100164A
+    7E80662DD0100164A

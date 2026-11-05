@@ -1,6 +1,9 @@
 command_id: 760.768.222B11
 test_cases:
 - expected_values:
+    CX30_LAT_G_760: 35
+  response: '768 05 62 2B 11 00 23 '
+- expected_values:
     CX30_LAT_G_760: 0
   response: 76805622B110000
 - expected_values:

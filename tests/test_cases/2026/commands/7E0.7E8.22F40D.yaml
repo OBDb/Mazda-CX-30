@@ -2,6 +2,12 @@ command_id: 7E0.7E8.22F40D
 test_cases:
 - expected_values:
     CX30_VSS: 0
+  response: |-
+    22F40D
+    7E80462F40D00
+    7E90462F40D00
+- expected_values:
+    CX30_VSS: 0
   response: 7E80462F40D00
 - expected_values:
     CX30_VSS: 107

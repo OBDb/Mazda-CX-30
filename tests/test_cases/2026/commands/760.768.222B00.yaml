@@ -2,6 +2,9 @@ command_id: 760.768.222B00
 test_cases:
 - expected_values:
     CX30_PARKING_BRAKE: 0
+  response: '768 07 62 2B 00 00 00 00 00 '
+- expected_values:
+    CX30_PARKING_BRAKE: 0
   response: 76807622B0000000000
 - expected_values:
     CX30_PARKING_BRAKE: 0

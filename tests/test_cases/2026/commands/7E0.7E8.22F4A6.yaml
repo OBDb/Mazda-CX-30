@@ -1,6 +1,11 @@
 command_id: 7E0.7E8.22F4A6
 test_cases:
 - expected_values:
+    CX30_PCM_VEH_ODO: 5705.8
+  response: |-
+    22F4A6
+    7E80762F4A60000DEE2
+- expected_values:
     CX30_PCM_VEH_ODO: 4346.1
   response: 7E80762F4A60000A9C5
 - expected_values:
