@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F407
+test_cases:
+- expected_values:
+    CX30_LTFT: 1.5625
+  response: 7E80462F40782

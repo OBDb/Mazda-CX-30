@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.22F404
+test_cases:
+- expected_values:
+    CX30_ENG_LOAD_PCT: 19.60784
+  response: 7E80462F40432
+- expected_values:
+    CX30_ENG_LOAD_PCT: 20
+  response: 7E80462F40433
+- expected_values:
+    CX30_ENG_LOAD_PCT: 20.39216
+  response: 7E80462F40434
+- expected_values:
+    CX30_ENG_LOAD_PCT: 20.78431
+  response: 7E80462F40435

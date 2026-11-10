@@ -1,0 +1,17 @@
+command_id: 7E0.7E8.220522
+test_cases:
+- expected_values:
+    CX30_FUEL_T: 47
+  response: '7E80462052257'
+- expected_values:
+    CX30_FUEL_T: 48
+  response: '7E80462052258'
+- expected_values:
+    CX30_FUEL_T: 49
+  response: '7E80462052259'
+- expected_values:
+    CX30_FUEL_T: 50
+  response: 7E8046205225A
+- expected_values:
+    CX30_FUEL_T: 51
+  response: 7E8046205225B

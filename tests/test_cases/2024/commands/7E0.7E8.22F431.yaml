@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F431
+test_cases:
+- expected_values:
+    CX30_DIST_DTC_CLR: 3719
+  response: 7E80562F4310E87

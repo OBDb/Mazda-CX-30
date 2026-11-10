@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.220318
+test_cases:
+- expected_values:
+    CX30_VCT_INT_ACT: 28.6875
+  response: 7E80562031801CB
+- expected_values:
+    CX30_VCT_INT_ACT: 28.75
+  response: 7E80562031801CC
+- expected_values:
+    CX30_VCT_INT_ACT: 28.875
+  response: 7E80562031801CE
+- expected_values:
+    CX30_VCT_INT_ACT: 28.9375
+  response: 7E80562031801CF
+- expected_values:
+    CX30_VCT_INT_ACT: 29
+  response: 7E80562031801D0
+- expected_values:
+    CX30_VCT_INT_ACT: 29.0625
+  response: 7E80562031801D1
+- expected_values:
+    CX30_VCT_INT_ACT: 29.125
+  response: 7E80562031801D2
+- expected_values:
+    CX30_VCT_INT_ACT: 29.1875
+  response: 7E80562031801D3
+- expected_values:
+    CX30_VCT_INT_ACT: 29.3125
+  response: 7E80562031801D5
+- expected_values:
+    CX30_VCT_INT_ACT: 29.5625
+  response: 7E80562031801D9

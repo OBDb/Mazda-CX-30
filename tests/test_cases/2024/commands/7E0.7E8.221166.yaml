@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.221166
+test_cases:
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 4.50439
+  response: 7E80562116605C4
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 6.82678
+  response: 7E80562116608BD
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.55103
+  response: 7E8056211660AF2
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.62122
+  response: 7E8056211660B09
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.63647
+  response: 7E8056211660B0E
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.64258
+  response: 7E8056211660B10
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.64563
+  response: 7E8056211660B11
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.64868
+  response: 7E8056211660B12
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.65784
+  response: 7E8056211660B15
+- expected_values:
+    CX30_EVAP_PURGE_CMD: 8.6792
+  response: 7E8056211660B1C

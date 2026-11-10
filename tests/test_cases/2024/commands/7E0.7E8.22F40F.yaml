@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22F40F
+test_cases:
+- expected_values:
+    CX30_IAT_ALT2: 22
+  response: 7E80462F40F3E
+- expected_values:
+    CX30_IAT_ALT2: 23
+  response: 7E80462F40F3F
+- expected_values:
+    CX30_IAT_ALT2: 24
+  response: 7E80462F40F40
+- expected_values:
+    CX30_IAT_ALT2: 25
+  response: 7E80462F40F41
+- expected_values:
+    CX30_IAT_ALT2: 26
+  response: 7E80462F40F42
+- expected_values:
+    CX30_IAT_ALT2: 27
+  response: 7E80462F40F43

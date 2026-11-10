@@ -1,0 +1,8 @@
+command_id: 720.728.2261B1
+test_cases:
+- expected_values:
+    CX30_FUEL_LEVEL: 35
+  response: 728046261B123
+- expected_values:
+    CX30_FUEL_LEVEL: 36
+  response: 728046261B124

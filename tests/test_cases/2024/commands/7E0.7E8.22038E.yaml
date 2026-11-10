@@ -1,0 +1,20 @@
+command_id: 7E0.7E8.22038E
+test_cases:
+- expected_values:
+    CX30_EVAP_RAW: 2575
+  response: 7E80562038E0A0F
+- expected_values:
+    CX30_EVAP_RAW: 2635
+  response: 7E80562038E0A4B
+- expected_values:
+    CX30_EVAP_RAW: 2705
+  response: 7E80562038E0A91
+- expected_values:
+    CX30_EVAP_RAW: 2735
+  response: 7E80562038E0AAF
+- expected_values:
+    CX30_EVAP_RAW: 2770
+  response: 7E80562038E0AD2
+- expected_values:
+    CX30_EVAP_RAW: 2775
+  response: 7E80562038E0AD7

@@ -1,0 +1,29 @@
+command_id: 7E0.7E8.221279
+test_cases:
+- expected_values:
+    CX30_IAT_SENS_V: 0.92375
+  response: 7E80562127900BD
+- expected_values:
+    CX30_IAT_SENS_V: 0.93353
+  response: 7E80562127900BF
+- expected_values:
+    CX30_IAT_SENS_V: 0.93842
+  response: 7E80562127900C0
+- expected_values:
+    CX30_IAT_SENS_V: 0.9433
+  response: 7E80562127900C1
+- expected_values:
+    CX30_IAT_SENS_V: 0.94819
+  response: 7E80562127900C2
+- expected_values:
+    CX30_IAT_SENS_V: 0.95308
+  response: 7E80562127900C3
+- expected_values:
+    CX30_IAT_SENS_V: 0.95797
+  response: 7E80562127900C4
+- expected_values:
+    CX30_IAT_SENS_V: 0.96285
+  response: 7E80562127900C5
+- expected_values:
+    CX30_IAT_SENS_V: 0.96774
+  response: 7E80562127900C6

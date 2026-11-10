@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F42C
+test_cases:
+- expected_values:
+    CX30_EGR: 0
+  response: 7E80462F42C00

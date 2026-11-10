@@ -1,0 +1,32 @@
+command_id: 7E0.7E8.22093C
+test_cases:
+- expected_values:
+    CX30_ETC_ACT_DEG: 2.98828
+  response: 7E80562093C05FA
+- expected_values:
+    CX30_ETC_ACT_DEG: 2.99609
+  response: 7E80562093C05FE
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.02148
+  response: 7E80562093C060B
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.04102
+  response: 7E80562093C0615
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.04492
+  response: 7E80562093C0617
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.05859
+  response: 7E80562093C061E
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.09375
+  response: 7E80562093C0630
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.0957
+  response: 7E80562093C0631
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.09961
+  response: 7E80562093C0633
+- expected_values:
+    CX30_ETC_ACT_DEG: 3.10547
+  response: 7E80562093C0636

@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F434
+test_cases:
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.57017
+  response: 7E80762F4347F638003
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.63853
+  response: 7E80762F4347FFC800A
+- expected_values:
+    CX30_AIR_FUEL_RAT: 14.64344
+  response: 7E80762F43480078009

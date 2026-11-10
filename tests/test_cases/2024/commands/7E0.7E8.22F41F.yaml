@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F41F
+test_cases:
+- expected_values:
+    CX30_RUN_TIME: 1150
+  response: 7E80562F41F047E
+- expected_values:
+    CX30_RUN_TIME: 1273
+  response: 7E80562F41F04F9
+- expected_values:
+    CX30_RUN_TIME: 1295
+  response: 7E80562F41F050F

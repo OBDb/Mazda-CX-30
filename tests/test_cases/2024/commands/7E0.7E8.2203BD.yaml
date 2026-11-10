@@ -1,0 +1,14 @@
+command_id: 7E0.7E8.2203BD
+test_cases:
+- expected_values:
+    CX30_CL_LC: 0.15088
+  response: 7E8056203BD04D4
+- expected_values:
+    CX30_CL_LC: 0.21863
+  response: 7E8056203BD06FF
+- expected_values:
+    CX30_CL_LC: 0.25122
+  response: 7E8056203BD080A
+- expected_values:
+    CX30_CL_LC: 0.4126
+  response: 7E8056203BD0D34

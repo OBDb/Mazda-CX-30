@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F469
+test_cases:
+- expected_values:
+    CX30_EGR_B_VLV_POS: 0
+    CX30_EGR_B_VLV_POS_DES: 0
+    CX30_EGR_ERROR: 0
+    CX30_EGR_VLV_POS: 0
+    CX30_EGR_VLV_POS_DES: 0
+  response: |-
+    7E8100A62F469070000
+    7E82180000000000000
