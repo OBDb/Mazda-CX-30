@@ -1,8 +1,8 @@
 command_id: 7E1.7E9.221E12
 test_cases:
 - expected_values:
-    CX30_GEAR_7E1: 0
-  response: 7E904621E1200
+    CX30_GEAR_7E1: '1'
+  response: 7E904621E1201
 - expected_values:
-    CX30_GEAR_7E1: 70
+    CX30_GEAR_7E1: PARK
   response: 7E904621E1246
