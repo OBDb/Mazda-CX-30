@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.22F45E
+test_cases:
+- expected_values:
+    CX30_ENG_FUEL_RATE: 0.95
+  response: 7E80562F45E0013
+- expected_values:
+    CX30_ENG_FUEL_RATE: 1
+  response: 7E80562F45E0014

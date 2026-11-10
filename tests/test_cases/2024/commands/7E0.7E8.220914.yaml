@@ -1,0 +1,8 @@
+command_id: 7E0.7E8.220914
+test_cases:
+- expected_values:
+    CX30_APP1_V: 0.792
+  response: '7E8056209140318'
+- expected_values:
+    CX30_APP1_V: 0.793
+  response: '7E8056209140319'

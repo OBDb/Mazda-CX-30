@@ -1,0 +1,11 @@
+command_id: 7E0.7E8.22F443
+test_cases:
+- expected_values:
+    CX30_ENG_LOAD_ACT: 15.29412
+  response: 7E80562F4430027
+- expected_values:
+    CX30_ENG_LOAD_ACT: 15.68627
+  response: 7E80562F4430028
+- expected_values:
+    CX30_ENG_LOAD_ACT: 16.07843
+  response: 7E80562F4430029

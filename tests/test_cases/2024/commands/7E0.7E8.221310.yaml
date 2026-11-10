@@ -1,0 +1,26 @@
+command_id: 7E0.7E8.221310
+test_cases:
+- expected_values:
+    CX30_EOT: 73.71
+  response: 7E8056213102C6B
+- expected_values:
+    CX30_EOT: 73.87
+  response: 7E8056213102C7B
+- expected_values:
+    CX30_EOT: 73.95
+  response: 7E8056213102C83
+- expected_values:
+    CX30_EOT: 74.03
+  response: 7E8056213102C8B
+- expected_values:
+    CX30_EOT: 74.1
+  response: 7E8056213102C92
+- expected_values:
+    CX30_EOT: 74.19
+  response: 7E8056213102C9B
+- expected_values:
+    CX30_EOT: 74.21
+  response: 7E8056213102C9D
+- expected_values:
+    CX30_EOT: 74.35
+  response: 7E8056213102CAB

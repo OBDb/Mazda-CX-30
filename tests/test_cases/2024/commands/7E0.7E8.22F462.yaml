@@ -1,0 +1,5 @@
+command_id: 7E0.7E8.22F462
+test_cases:
+- expected_values:
+    CX30_PCM_ACT_ENG_PCT_TRQ: 12
+  response: 7E80462F46289

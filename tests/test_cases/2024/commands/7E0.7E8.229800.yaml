@@ -1,0 +1,23 @@
+command_id: 7E0.7E8.229800
+test_cases:
+- expected_values:
+    CX30_AC_P_SENS_V: 0.81055
+  response: 7E805629800033E
+- expected_values:
+    CX30_AC_P_SENS_V: 0.81543
+  response: '7E8056298000343'
+- expected_values:
+    CX30_AC_P_SENS_V: 0.82031
+  response: '7E8056298000348'
+- expected_values:
+    CX30_AC_P_SENS_V: 0.8252
+  response: 7E805629800034D
+- expected_values:
+    CX30_AC_P_SENS_V: 0.83008
+  response: '7E8056298000352'
+- expected_values:
+    CX30_AC_P_SENS_V: 0.85938
+  response: '7E8056298000370'
+- expected_values:
+    CX30_AC_P_SENS_V: 0.89844
+  response: '7E8056298000398'
