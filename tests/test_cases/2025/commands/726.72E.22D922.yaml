@@ -1,8 +1,8 @@
 command_id: 726.72E.22D922
 test_cases:
 - expected_values:
-    CX30_TP_FL: 27.2
-  response: 72E0462D92288
+    CX30_TP_FL: 27
+  response: 72E0462D92287
 - expected_values:
     CX30_TP_FL: 43
   response: 72E0462D922D7
