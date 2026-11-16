@@ -583,7 +583,7 @@
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "1127"}, "freq": 1,
   "signals": [
-    {"id": "CX30_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 1079.4118, "mul": 338639, "div": 80000, "unit": "kilopascal" }, "name": "Barometric pressure"}
+    {"id": "CX30_BAROMETRIC_P", "path": "Engine", "fmt": { "len": 8, "max": 107.94, "mul": 338639, "div": 800000, "unit": "kilopascal" }, "name": "Barometric pressure", "suggestedMetric": "barometricPressure"}
   ]},
 { "hdr": "7E0", "rax": "7E8", "dbg": true, "cmd": {"22": "113C"}, "freq": 1,
   "signals": [
