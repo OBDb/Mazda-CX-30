@@ -23,7 +23,7 @@
   "signals": [
     {"id": "CX30_IG_ON_TIMER", "path": "Engine", "fmt": { "len": 16, "max": 1092.25, "div": 60, "unit": "minutes" }, "name": "Engine runtime"}
   ]},
-{ "hdr": "723", "rax": "72B", "cmd": {"22": "DCE2"}, "freq": 1, "dbgfilter": { "to": 2021, "from": 2023 },
+{ "hdr": "723", "rax": "72B", "dbg": true, "cmd": {"22": "DCE2"}, "freq": 1,
   "signals": [
     {"id": "CX30_12V_SOC_723", "path": "Battery", "fmt": { "len": 8, "max": 127.5, "div": 2, "nullmax": 127.5, "unit": "percent" }, "name": "12V battery state of charge"}
   ]},
@@ -1127,7 +1127,7 @@
   "signals": [
     {"id": "CX30_TQ_ACT", "path": "Engine", "fmt": { "len": 16, "max": 655, "min": -655, "div": 50, "sign": true, "unit": "newtonMeters" }, "name": "Torque, actual"}
   ]},
-{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2020, "from": 2027 },
+{ "hdr": "7E1", "rax": "7E9", "cmd": {"22": "DD01"}, "freq": 30, "dbgfilter": { "to": 2022, "from": 2027 },
   "signals": [
     {"id": "CX30_TRANS_ODO", "path": "Transmission", "fmt": { "len": 24, "max": 16777215, "nullmin": 0, "unit": "kilometers" }, "name": "Transmission odometer", "suggestedMetric": "odometer"}
   ]},
