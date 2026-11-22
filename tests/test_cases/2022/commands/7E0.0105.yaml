@@ -14,5 +14,10 @@ test_cases:
     7E803410582
     7E803410D3C
 - expected_values:
+    ECT: 95
+  response: |-
+    7E803410587
+    7E803410D69
+- expected_values:
     ECT: 102
   response: 7E80341058E
