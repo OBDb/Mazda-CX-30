@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX30_TT_FR: 18
   response: 72E0462D92744
+- expected_values:
+    CX30_TT_FR: 27
+  response: 72E0462D9274D
