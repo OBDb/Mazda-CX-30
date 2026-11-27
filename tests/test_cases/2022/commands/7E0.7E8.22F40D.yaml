@@ -9,5 +9,10 @@ test_cases:
     7E80462F40D13
     7E803410D13
 - expected_values:
+    CX30_VSS: 67
+  response: |-
+    7E80462F40D43
+    7E803410D43
+- expected_values:
     CX30_VSS: 142
   response: 7E80462F40D8E
