@@ -3,3 +3,6 @@ test_cases:
 - expected_values:
     CX30_TP_RL: 33.4
   response: 72E0462D924A7
+- expected_values:
+    CX30_TP_RL: 34.6
+  response: 72E0462D924AD
